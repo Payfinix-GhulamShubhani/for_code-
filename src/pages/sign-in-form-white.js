@@ -4,7 +4,7 @@ import styles from "./sign-in-form-white.module.css";
 
 const SignInFormWhite = () => {
   return (<>
-      <Headerforall />
+      {/* <Headerforall /> */}
     <div className={styles.signInFormWhite} >
       <Column />
       <div className={styles.placeholderImageWrapper}>

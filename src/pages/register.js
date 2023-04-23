@@ -2,7 +2,7 @@ import Headerforall from "../components/Headerforall";
 import styles from "./register.module.css";
 const Register = () => {
   return (<>
-      <Headerforall val={"false"} />
+      {/* <Headerforall val={"false"} /> */}
     <div className={styles.register}>
       <div className={styles.letsGetYouStartedParent}>
         <b className={styles.letsGetYou}>Let’s get you started</b>
