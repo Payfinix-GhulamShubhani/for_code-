@@ -3,7 +3,14 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+import { useNavigate } from "react-router-dom";
 const Column = () => {
+  const navigate = useNavigate();
+
+  const loginFunction= ()=>{
+    navigate("/lucky-home1");
+
+  }
   return (
     <div className={styles.column}>
       <div className={styles.navbar}>
@@ -60,7 +67,7 @@ const Column = () => {
           </div>
           <div className={styles.buttons}>
             <div className={styles.button}>
-            <Button className={styles.forgotPassword} style={{ width: '250%' , height:'160%', color: 'white'  }}>Log in</Button>
+            <Button className={styles.forgotPassword} style={{ width: '250%' , height:'160%', color: 'white'  }} onClick={loginFunction}>Log in</Button>
               {/* <div className={styles.forgotPassword}>Log in</div> */}
             </div>
             <div className={styles.button1}>
