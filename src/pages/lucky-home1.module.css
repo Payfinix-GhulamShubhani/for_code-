@@ -66,6 +66,16 @@
   height: 34px;
   object-fit: cover;
 }
+.navigationItem1{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 12px;
+  left: 1290px;
+  width: 20px;
+  height: 34px;
+  object-fit: cover;
+}
 .searchIcon {
   position: absolute;
   height: 37.93%;
@@ -737,4 +747,152 @@
   font-size: var(--text-regular-normal-size);
   color: var(--text-light-primary);
   font-family: var(--font-inter);
+}
+
+
+/*  */
+.rectangleContainer {
+  position: absolute;
+  top: 60px;
+  left: 1205px;
+  width: 262px;
+  height: 439px;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--button-normal-button-text);
+}
+.groupChild1,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 262px;
+  height: 439px;
+  opacity: 0.9;
+}
+.groupChild1,
+.rectangleDiv {
+  top: 191px;
+  left: 23px;
+  background-color: var(--color-gray-1100);
+  width: 215px;
+  height: 2px;
+}
+.groupChild1 {
+  top: 362px;
+}
+.findCousreParent {
+  position: absolute;
+  top: 41px;
+  left: 23px;
+  width: 156px;
+  height: 130px;
+}
+.findCousre,
+.findCousre1,
+.findCousre2 {
+  position: absolute;
+  top: 2px;
+  left: 51px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.findCousre1,
+.findCousre2 {
+  top: 50px;
+}
+.findCousre2 {
+  top: 98px;
+}
+.photoIcon,
+.photoIcon1,
+.photoIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.photoIcon1,
+.photoIcon2 {
+  top: 48px;
+}
+.photoIcon2 {
+  top: 96px;
+}
+.findCousreGroup {
+  position: absolute;
+  top: 214px;
+  left: 29px;
+  width: 162px;
+  height: 31px;
+}
+.findCousre3 {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.composeDocumentEditPenPencIcon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.findCousreContainer {
+  position: absolute;
+  top: 262px;
+  left: 26px;
+  width: 112px;
+  height: 31px;
+}
+.findCousre4 {
+  position: absolute;
+  top: 0;
+  left: 44px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.accountAvatarFaceManPeopleIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.composeDocumentEditPenPenc,
+.helpIconIconscom558911 {
+  position: absolute;
+  top: 217px;
+  left: 0;
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+}
+.helpIconIconscom558911 {
+  top: 1px;
+  width: 28px;
+  height: 28px;
+}
+.groupDiv {
+  position: absolute;
+  top: 310px;
+  left: 26px;
+  width: 139px;
+  height: 31px;
+}
+.findCousre6 {
+  position: absolute;
+  top: 385px;
+  left: 94px;
+  line-height: 30.5px;
+  font-weight: 500;
+  text-align: center;
 }

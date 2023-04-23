@@ -11,14 +11,10 @@ const Headerforall = (props) => {
         setopen(!open)
     }
     return (
-        <div className={props.val=== "true" ? styles.navigationpostion : styles.navigationpostion1 }>
-            <div className={styles.navigation}>
+        <div >
+            <div className={props.val === "true" ? styles.navigation : styles.navigation1}>
                 <div className={styles.navigationChild} />
-                {/* <img
-              className={styles.navigationItem}
-              alt=""
-              src="/group-1686551457@2x.png"
-            /> */}
+               
                 <div className={styles.navigationItem1}>
 
                     <Button>
