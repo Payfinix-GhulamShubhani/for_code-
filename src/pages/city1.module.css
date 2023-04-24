@@ -152,6 +152,13 @@
   line-height: 20px;
   font-weight: 600;
 }
+.newYork1 {
+  position: absolute;
+  top: 0%;
+  left: -110%;
+  line-height: 20px;
+  font-weight: 600;
+}
 .iconnavigationarrowBackIosParent {
   position: absolute;
   height: 100%;
@@ -168,10 +175,19 @@
   top: 31.71%;
   right: 0.49%;
   bottom: 30.98%;
-  left: 82.31%;
+  left: -22.31%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+}
+.iconnavigationarrowBackIosGroup1 {
+  position: absolute;
+  height: 100%;
+  width: 29.06%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70.94%;
 }
 .iconnavigationarrowBackIosGroup {
   position: absolute;
@@ -294,7 +310,7 @@
 }
 .search1 {
   top: 90px;
-  left: 388px;
+  left: 35vw;
   text-align: left;
   font-size: var(--button-normal-button-text-size);
   color: var(--color-darkslategray-400);
@@ -1023,6 +1039,7 @@
   left: 72px;
   line-height: 20px;
 }
+
 .tileComponent25 {
   position: absolute;
   top: 171px;
@@ -1161,4 +1178,221 @@
 }
 .tileComponent36 {
   top: 747px;
+}
+ /*  */
+/*   */
+.navigationItem1{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 12px;
+  left: 1290px;
+  width: 20px;
+  height: 34px;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangleContainer2 {
+  position: absolute;
+  top: 40px;
+  left: -92px;
+  width: 22px;
+  height: 9px;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--button-normal-button-text);
+  z-index: 2;
+}
+
+.rectangleContainer1 {
+  position: absolute;
+  top: 40px;
+  left: -92px;
+  width: 22px;
+  height: 9px;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--button-normal-button-text);
+  z-index: 2;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 60px;
+  left: 1205px;
+  width: 262px;
+  height: 439px;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--button-normal-button-text);
+}
+.groupChild3,
+.groupInner2,
+.rectangleDiv2 {
+  position: absolute;
+  top: 0;
+  left: 252px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 112px;
+  height: 200px;
+  opacity: 0.9;
+}
+.groupChild2,
+.groupInner1,
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 92px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 162px;
+  height: 200px;
+  opacity: 0.9;
+}
+.groupChild1,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 262px;
+  height: 439px;
+  opacity: 0.9;
+}
+.groupChild1,
+.rectangleDiv {
+  top: 191px;
+  left: 23px;
+  background-color: var(--color-gray-1100);
+  width: 215px;
+  height: 2px;
+}
+.groupChild1 {
+  top: 362px;
+}
+.findCousreParent2 {
+  position: absolute;
+  top: 31px;
+  left: 220px;
+  width: 156px;
+  height: 130px;
+}
+.findCousreParent1 {
+  position: absolute;
+  top: 31px;
+  left: 90px;
+  width: 156px;
+  height: 130px;
+}
+.findCousreParent {
+  position: absolute;
+  top: 41px;
+  left: 23px;
+  width: 156px;
+  height: 130px;
+}
+.findCousre,
+.findCousre1,
+.findCousre2 {
+  position: absolute;
+  top: 2px;
+  left: 51px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.findCousre1,
+.findCousre2 {
+  top: 50px;
+}
+.findCousre2 {
+  top: 98px;
+}
+.photoIcon,
+.photoIcon1,
+.photoIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.photoIcon1,
+.photoIcon2 {
+  top: 48px;
+}
+.photoIcon2 {
+  top: 96px;
+}
+.findCousreGroup {
+  position: absolute;
+  top: 214px;
+  left: 29px;
+  width: 162px;
+  height: 31px;
+}
+.findCousre3 {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.composeDocumentEditPenPencIcon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+}
+.findCousreContainer {
+  position: absolute;
+  top: 262px;
+  left: 26px;
+  width: 112px;
+  height: 31px;
+}
+.findCousre4 {
+  position: absolute;
+  top: 0;
+  left: 44px;
+  line-height: 30.5px;
+  font-weight: 500;
+}
+.accountAvatarFaceManPeopleIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+}
+.composeDocumentEditPenPenc,
+.helpIconIconscom558911 {
+  position: absolute;
+  top: 217px;
+  left: 0;
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+}
+.helpIconIconscom558911 {
+  top: 1px;
+  width: 28px;
+  height: 28px;
+}
+.groupDiv {
+  position: absolute;
+  top: 310px;
+  left: 26px;
+  width: 139px;
+  height: 31px;
+}
+.findCousre6 {
+  position: absolute;
+  top: 385px;
+  left: 94px;
+  line-height: 30.5px;
+  font-weight: 500;
+  text-align: center;
 }
