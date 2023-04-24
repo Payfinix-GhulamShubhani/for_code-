@@ -60,10 +60,10 @@ const LuckyHome1 = () => {
         <img className={styles.searchIcon} alt="" src="/search.svg" />
         <div className={styles.search}>
           <div className={styles.searchInner}>
-            <div className={styles.searchInner}>
+            <Button className={styles.searchInner}>
               <div className={styles.groupChild} />
-              <div className={styles.createATeam}>Create a Team</div>
-            </div>
+              <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
+            </Button>
           </div>
         </div>
         <div className={styles.logoMenu}>
