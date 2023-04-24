@@ -892,7 +892,7 @@
   top: 0;
   left: 0;
   background-color: var(--color-gray-400);
-  width: 1440px;
+  width: 100vw;
   height: 1029px;
 }
 .groupChild3 {
@@ -1259,7 +1259,7 @@
 .createATeam {
   position: relative;
   background-color: var(--text-light-primary);
-  width: 100%;
+  width: 100vw;
   height: 1008px;
   overflow: hidden;
   text-align: center;
