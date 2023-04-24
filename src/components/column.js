@@ -11,6 +11,10 @@ const Column = () => {
     navigate("/lucky-home1");
 
   }
+  const signupFunction= ()=>{
+    navigate("/register");
+
+  }
   return (
     <div className={styles.column}>
       <div className={styles.navbar}>
@@ -83,7 +87,7 @@ const Column = () => {
             <div className={styles.namecompagnycom}>
               Don’t have an account ?
             </div>
-            <Button className={styles.forgotPassword}>Sign up here</Button>
+            <Button className={styles.forgotPassword} onClick={signupFunction}>Sign up here</Button>
           </div>
         </div>
       </div>

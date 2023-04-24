@@ -1,6 +1,14 @@
 import Headerforall from "../components/Headerforall";
 import styles from "./register.module.css";
+import { useNavigate } from "react-router-dom";
+import Button from '@mui/material/Button';
 const Register = () => {
+  const navigate = useNavigate();
+
+  const signFunction= ()=>{
+    navigate("/sign-in-welcome");
+
+  }
   return (<>
       {/* <Headerforall val={"false"} /> */}
     <div className={styles.register}>
@@ -50,10 +58,10 @@ const Register = () => {
           </div>
           <img className={styles.groupChild1} alt="" src="/group-8081.svg" />
         </div>
-        <div className={styles.rectangleParent}>
+        <Button className={styles.rectangleParent}>
           <div className={styles.groupChild2} />
-          <b className={styles.signUp}>Sign Up</b>
-        </div>
+          <b className={styles.signUp} onClick={signFunction}>Sign Up</b>
+        </Button>
         <div className={styles.alreadyAUserParent}>
           <b className={styles.fullName}>Already a user?</b>
           <b className={styles.login}>Login</b>

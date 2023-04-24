@@ -253,6 +253,13 @@
   font-size: var(--button-normal-button-text-size);
   font-family: var(--font-open-sans);
 }
+.groupItem1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-primary);
+
+  width: 663px;
+  height: 60px;
+}
 .groupItem {
   border-radius: var(--br-5xs);
   background-color: var(--text-light-primary);

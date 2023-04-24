@@ -1,6 +1,14 @@
 import Headerforall from "../components/Headerforall";
+import { useNavigate } from "react-router-dom";
+import Button from '@mui/material/Button';
 import styles from "./enter-your-code-done.module.css";
 const EnterYourCodeDone = () => {
+  const navigate = useNavigate();
+
+  const codeFunction= ()=>{
+    navigate("/lucky-home1");
+
+  }
   return (
     <div className={styles.enterYourCodeDone}>
       
@@ -58,7 +66,7 @@ const EnterYourCodeDone = () => {
               Sign up with you number instead
             </div>
           </div>
-          <div className={styles.button}>
+          <div className={styles.button}  >
             <div className={styles.continue}>Continue</div>
           </div>
         </div>
@@ -79,8 +87,8 @@ const EnterYourCodeDone = () => {
       </div>
       <div className={styles.enterYourCodeDoneChild} />
       <div className={styles.updateContactInfo}>Update contact info</div>
-      <div className={styles.button1}>
-        <div className={styles.continue}>Continue</div>
+      <div className={styles.button1}  onClick={codeFunction}>
+        <Button className={styles.continue} style={{color:'white'}}>Continue</Button>
       </div>
       <div className={styles.groupParent}>
         <div className={styles.frameContainer}>

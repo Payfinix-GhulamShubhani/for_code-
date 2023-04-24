@@ -1,6 +1,7 @@
 import styles from "./lucky-home1.module.css";
 import React, { useState } from 'react'
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone';
@@ -17,6 +18,12 @@ const LuckyHome1 = () => {
   }
   const handleClick2 = () => {
     setopen2(!open2)
+  }
+  const navigate = useNavigate();
+
+  const teamFunction= ()=>{
+    navigate("/create-a-team");
+
   }
   return (
     <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
@@ -60,7 +67,7 @@ const LuckyHome1 = () => {
         <img className={styles.searchIcon} alt="" src="/search.svg" />
         <div className={styles.search}>
           <div className={styles.searchInner}>
-            <Button className={styles.searchInner}>
+            <Button className={styles.searchInner}  onClick={teamFunction}>
               <div className={styles.groupChild} />
               <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
             </Button>

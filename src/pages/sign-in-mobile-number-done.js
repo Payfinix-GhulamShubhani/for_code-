@@ -1,5 +1,14 @@
 import styles from "./sign-in-mobile-number-done.module.css";
+import Button from '@mui/material/Button';
+import { useNavigate } from "react-router-dom";
+
 const SignInMobileNumberDone = () => {
+  const navigate = useNavigate();
+
+  const logiFunction= ()=>{
+    navigate("/enter-your-code-done");
+
+  }
   return (
     <div className={styles.signInMobileNumberDone}>
       <div className={styles.column}>
@@ -71,9 +80,9 @@ const SignInMobileNumberDone = () => {
             </span>
           </div>
         </div>
-        <div className={styles.button}>
-          <div className={styles.continue}>Continue</div>
-        </div>
+        <Button className={styles.button}  onClick={logiFunction}>
+          <div className={styles.continue}style={{color:'white'}}>Continue</div>
+        </Button>
       </div>
       <div className={styles.frameGroup}>
         <div className={styles.mobileNumberWrapper}>

@@ -1,5 +1,15 @@
 import styles from "./sign-in-mobile-number.module.css";
+import TextField from '@mui/material/TextField';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import { useNavigate } from "react-router-dom";
 const SignInMobileNumber = () => {
+  const navigate = useNavigate();
+
+  const contiFunction= ()=>{
+    navigate("/sign-in-mobile-number-done");
+
+  }
   return (
     <div className={styles.signInMobileNumber}>
       <div className={styles.column}>
@@ -28,6 +38,16 @@ const SignInMobileNumber = () => {
       </div>
       <div className={styles.frameParent}>
         <div className={styles.mobileNumberWrapper}>
+        <Box
+      component="form"
+      sx={{
+        '& > :not(style)': { m: 1, width: '25ch' },
+      }}
+      noValidate
+      autoComplete="off"
+    >
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        </Box>
           <div className={styles.mobileNumber}>Mobile number</div>
         </div>
         <div className={styles.wrapper}>
@@ -71,14 +91,14 @@ const SignInMobileNumber = () => {
             </span>
           </div>
         </div>
-        <div className={styles.button}>
-          <div className={styles.continue}>Continue</div>
-        </div>
+        <Button className={styles.button}>
+          <div className={styles.continue}  onClick={contiFunction}>Continue</div>
+        </Button>
       </div>
       <div className={styles.frameGroup}>
-        <div className={styles.mobileNumberWrapper}>
+        <Button className={styles.mobileNumberWrapper}>
           <div className={styles.mobileNumber}>Mobile number</div>
-        </div>
+        </Button>
         <div className={styles.group}>
           <div className={styles.mobileNumber}>945</div>
           <img

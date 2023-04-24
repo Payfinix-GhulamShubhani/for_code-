@@ -1,5 +1,13 @@
 import styles from "./sign-in-welcome.module.css";
+import Button from '@mui/material/Button';
+import { useNavigate } from "react-router-dom";
 const SignInWelcome = () => {
+  const navigate = useNavigate();
+
+  const mobiFunction= ()=>{
+    navigate("/sign-in-mobile-number");
+
+  }
   return (
     <div className={styles.signInWelcome}>
       <div className={styles.column}>
@@ -28,7 +36,7 @@ const SignInWelcome = () => {
       </div>
       <div className={styles.frameParent}>
         <div className={styles.mobileNumberWrapper}>
-          <div className={styles.mobileNumber}>Mobile number</div>
+          <div className={styles.mobileNumber}  onClick={mobiFunction}>Mobile number</div>
         </div>
         <div className={styles.wrapper}>
           <div className={styles.mobileNumber}>9456784567</div>
@@ -63,7 +71,7 @@ const SignInWelcome = () => {
           <div className={styles.or}>or</div>
         </div>
         <div className={styles.button}>
-          <div className={styles.mobileNumber1}>Mobile number</div>
+          <Button className={styles.mobileNumber1} style={{color:"black"}}  onClick={mobiFunction}>Mobile number</Button>
         </div>
       </div>
       <div className={styles.continueWithGoogleLeftAl}>

@@ -27,7 +27,7 @@ import EnterYourCodeDone from "./pages/enter-your-code-done";
 import EnterYourCode from "./pages/enter-your-code";
 import SignInMobileNumber from "./pages/sign-in-mobile-number";
 import SignInWelcome from "./pages/sign-in-welcome";
-import CreateAccount6 from "./pages/create-account6";
+import CreateAccount6 from "./pages/create-account-6";
 import Register from "./pages/register";
 import SignInFormWhite from "./pages/sign-in-form-white";
 import { useEffect } from "react";

@@ -1,4 +1,4 @@
-import styles from "./create-account6.module.css";
+import styles from "./create-account-6.module.css";
 const CreateAccount6 = () => {
   return (
     <div className={styles.createAccount6}>
