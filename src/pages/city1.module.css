@@ -958,7 +958,7 @@
 .tileComponent21,
 .tileComponent22 {
   position: absolute;
-  top: 151px;
+  top: 171px;
   left: 65px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -966,7 +966,7 @@
   overflow: hidden;
 }
 .tileComponent22 {
-  top: 343px;
+  top: 363px;
 }
 .imageIcon24 {
   position: absolute;
@@ -986,7 +986,7 @@
 .tileComponent23,
 .tileComponent24 {
   position: absolute;
-  top: 535px;
+  top: 555px;
   left: 65px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -994,7 +994,7 @@
   overflow: hidden;
 }
 .tileComponent24 {
-  top: 727px;
+  top: 747px;
 }
 .imageIcon26,
 .imageIcon27 {
@@ -1018,7 +1018,7 @@
 }
 .tileComponent25 {
   position: absolute;
-  top: 151px;
+  top: 171px;
   left: 395px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1033,7 +1033,7 @@
 }
 .tileComponent26 {
   position: absolute;
-  top: 343px;
+  top: 363px;
   left: 395px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1049,7 +1049,7 @@
 .tileComponent27,
 .tileComponent28 {
   position: absolute;
-  top: 535px;
+  top: 555px;
   left: 395px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1057,7 +1057,7 @@
   overflow: hidden;
 }
 .tileComponent28 {
-  top: 727px;
+  top: 747px;
 }
 .imageIcon36 {
   position: absolute;
@@ -1076,7 +1076,7 @@
 }
 .tileComponent29 {
   position: absolute;
-  top: 151px;
+  top: 171px;
   left: 725px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1093,7 +1093,7 @@
 .tileComponent31,
 .tileComponent32 {
   position: absolute;
-  top: 343px;
+  top: 363px;
   left: 725px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1102,10 +1102,10 @@
 }
 .tileComponent31,
 .tileComponent32 {
-  top: 535px;
+  top: 555px;
 }
 .tileComponent32 {
-  top: 727px;
+  top: 747px;
 }
 .paris {
   position: absolute;
@@ -1115,7 +1115,7 @@
 }
 .tileComponent33 {
   position: absolute;
-  top: 151px;
+  top: 171px;
   left: 1055px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1141,7 +1141,7 @@
 .tileComponent35,
 .tileComponent36 {
   position: absolute;
-  top: 343px;
+  top: 363px;
   left: 1055px;
   border-radius: var(--br-3xs);
   width: 320px;
@@ -1150,8 +1150,8 @@
 }
 .tileComponent35,
 .tileComponent36 {
-  top: 535px;
+  top: 555px;
 }
 .tileComponent36 {
-  top: 727px;
+  top: 747px;
 }

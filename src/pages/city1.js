@@ -11,7 +11,7 @@ const LuckyHome1 = () => {
     setopen(!open)
   }
   return (
-    <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
+    <div className={styles.luckyHome} >
       {/* <img className={styles.titleImageIcon} alt="" src="/titleimage@2x.png" /> */}
       
       <div className={styles.bgFade} />
@@ -86,7 +86,7 @@ const LuckyHome1 = () => {
         </div>
       </div>
       {/* <column /> */}
-      {/* <div className={styles.search1}>
+      <div className={styles.search1}>
         <div className={styles.rectangleGroup}>
           <div className={styles.groupItem} />
           <img
@@ -97,7 +97,7 @@ const LuckyHome1 = () => {
           <div className={styles.search2}>Search</div>
         </div>
       </div>
-       */}
+      
       <div>
       <div className={styles.tileComponent21}>
         <img className={styles.imageIcon21} alt="" src="/image20@2x.png" />
