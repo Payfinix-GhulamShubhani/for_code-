@@ -7,8 +7,12 @@ import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone
 import Headerforall from "../components/Headerforall";
 const LuckyHome1 = () => {
   const [open, setopen] = useState(false)
+  const [open1, setopen1] = useState(false)
   const handleClick = () => {
     setopen(!open)
+  }
+  const handleClick1 = () => {
+    setopen1(!open1)
   }
   return (
     <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
@@ -62,14 +66,57 @@ const LuckyHome1 = () => {
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
             <b className={styles.start}>Start</b>
-            <div className={styles.iconnavigationarrowBackIosParent}>
+            <Button className={styles.iconnavigationarrowBackIosParent}>
               <img
                 className={styles.iconnavigationarrowBackIos}
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork}>New York</div>
-            </div>
+              <div className={styles.newYork} onClick={handleClick1} style={{color:'white'}}>New York</div>
+            </Button>
+            {
+
+open1 && <div className={styles.rectangleContainer1}>
+  <div className={styles.groupInner1} />
+  <div className={styles.rectangleDiv1} />
+  <div className={styles.groupChild2} />
+  <div className={styles.findCousreParent1}>
+    <div className={styles.findCousre}>London</div>
+    <div className={styles.findCousre1}>New York</div>
+    <div className={styles.findCousre2}>Canada</div>
+    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
+    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
+  </div>
+  {/* <div className={styles.findCousreGroup}> */}
+    {/* <div className={styles.findCousre3}>Manage Profile</div>
+    <img
+      className={styles.composeDocumentEditPenPencIcon}
+      alt=""
+      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousreContainer}>
+    <div className={styles.findCousre4}>Account</div>
+    <img
+      className={styles.accountAvatarFaceManPeopleIcon}
+      alt=""
+      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
+  {/* <div className={styles.groupDiv}>
+    <div className={styles.findCousre4}>Help Center</div>
+    <img
+      className={styles.helpIconIconscom558911}
+      alt=""
+      src="/help-iconiconscom-55891-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousre6}>Sign out</div> */}
+</div>
+}
+
             <div className={styles.iconnavigationarrowBackIosGroup}>
               <img
                 className={styles.iconnavigationarrowBackIos1}

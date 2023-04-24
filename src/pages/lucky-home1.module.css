@@ -761,6 +761,15 @@
   height: 34px;
   object-fit: cover;
 }
+.rectangleContainer1 {
+  position: absolute;
+  top: 40px;
+  left: -92px;
+  width: 22px;
+  height: 9px;
+  font-size: var(--text-regular-normal-size);
+  font-family: var(--button-normal-button-text);
+}
 .rectangleContainer {
   position: absolute;
   top: 60px;
@@ -769,6 +778,18 @@
   height: 439px;
   font-size: var(--text-regular-normal-size);
   font-family: var(--button-normal-button-text);
+}
+.groupChild2,
+.groupInner1,
+.rectangleDiv1 {
+  position: absolute;
+  top: 0;
+  left: 92px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  width: 162px;
+  height: 200px;
+  opacity: 0.9;
 }
 .groupChild1,
 .groupInner,
@@ -792,6 +813,13 @@
 }
 .groupChild1 {
   top: 362px;
+}
+.findCousreParent1 {
+  position: absolute;
+  top: 31px;
+  left: 90px;
+  width: 156px;
+  height: 130px;
 }
 .findCousreParent {
   position: absolute;
