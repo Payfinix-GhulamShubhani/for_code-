@@ -24,7 +24,7 @@ const LuckyHome1 = () => {
     setopen1(!open1)
   }
   const handleClick2 = () => {
-    setopen1(!open1)
+    setopen2(!open2)
   }
   return (
     <div className={styles.luckyHome} >
@@ -44,22 +44,25 @@ const LuckyHome1 = () => {
         <div className={styles.navigationItem1}>
 
           <Button>
-            <FavoriteBorderTwoToneIcon />
+            <FavoriteBorderTwoToneIcon style={{color
+            :'white'}}/>
           </Button>
           <Button>
-            <SettingsTwoToneIcon />
+            <SettingsTwoToneIcon style={{color
+            :'white'}} />
           </Button>
           <Button onClick={handleClick}>
-            <AccountCircleIcon />
+            <AccountCircleIcon style={{color
+            :'white'}}/>
           </Button>
         </div>
         <img className={styles.searchIcon} alt="" src="/search.svg" />
         <div className={styles.search}>
           <div className={styles.searchInner}>
-            <div className={styles.searchInner}>
+            <Button className={styles.searchInner}>
               <div className={styles.groupChild} />
-              <div className={styles.createATeam}>Create a Team</div>
-            </div>
+              <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
+            </Button>
           </div>
         </div>
         <div className={styles.logoMenu}>
@@ -72,7 +75,7 @@ const LuckyHome1 = () => {
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork12} onClick={handleClick2} style={{color:'white'}}>New York</div>
+              <div className={styles.newYork12} onClick={handleClick1} style={{color:'white'}}>New York</div>
             </Button>
             {
 
@@ -84,43 +87,65 @@ open1 && <div className={styles.rectangleContainer1}>
     <div className={styles.findCousre}>London</div>
     <div className={styles.findCousre1}>New York</div>
     <div className={styles.findCousre2}>Canada</div>
-    
+    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
+    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
   </div>
-  
+ 
+  {/* <div className={styles.findCousre6}>Sign out</div> */}
 </div>
 }
 
-            <div className={styles.iconnavigationarrowBackIosGroup}>
-            <Button className={styles.iconnavigationarrowBackIosParent}>
+            <Button className={styles.iconnavigationarrowBackIosGroup1}>
               <img
                 className={styles.iconnavigationarrowBackIos1}
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork12} onClick={handleClick1} style={{color:'white'}}>Explore</div>
+              <div className={styles.newYork1} onClick={handleClick2}style={{color:'white'}}>Explore</div>
             </Button>
             {
 
-open1 && <div className={styles.rectangleContainer1}>
-  <div className={styles.groupInner1} />
-  <div className={styles.rectangleDiv1} />
-  <div className={styles.groupChild2} />
-  <div className={styles.findCousreParent1}>
-    <div className={styles.findCousre}>London</div>
-    <div className={styles.findCousre1}>New York</div>
+open2 && <div className={styles.rectangleContainer2}>
+  <div className={styles.groupInner2} />
+  <div className={styles.rectangleDiv2} />
+  <div className={styles.groupChild3} />
+  <div className={styles.findCousreParent2}>
+    <div className={styles.findCousre}>Explore</div>
+    <div className={styles.findCousre1}>New</div>
     <div className={styles.findCousre2}>Canada</div>
-    
+    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
+    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
   </div>
-  
+  {/* <div className={styles.findCousreGroup}> */}
+    {/* <div className={styles.findCousre3}>Manage Profile</div>
+    <img
+      className={styles.composeDocumentEditPenPencIcon}
+      alt=""
+      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousreContainer}>
+    <div className={styles.findCousre4}>Account</div>
+    <img
+      className={styles.accountAvatarFaceManPeopleIcon}
+      alt=""
+      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
+  {/* <div className={styles.groupDiv}>
+    <div className={styles.findCousre4}>Help Center</div>
+    <img
+      className={styles.helpIconIconscom558911}
+      alt=""
+      src="/help-iconiconscom-55891-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousre6}>Sign out</div> */}
 </div>
 }
-              {/* <img
-                className={styles.iconnavigationarrowBackIos1}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              />
-              <div className={styles.newYork}>Explore</div> */}
-            </div>
           </div>
         </div>
         <div className={styles.finalLuckyDodoVar01Parent}>

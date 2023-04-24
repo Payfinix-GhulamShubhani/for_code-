@@ -8,11 +8,15 @@ import Headerforall from "../components/Headerforall";
 const LuckyHome1 = () => {
   const [open, setopen] = useState(false)
   const [open1, setopen1] = useState(false)
+  const [open2, setopen2] = useState(false)
   const handleClick = () => {
     setopen(!open)
   }
   const handleClick1 = () => {
     setopen1(!open1)
+  }
+  const handleClick2 = () => {
+    setopen2(!open2)
   }
   return (
     <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
@@ -56,10 +60,10 @@ const LuckyHome1 = () => {
         <img className={styles.searchIcon} alt="" src="/search.svg" />
         <div className={styles.search}>
           <div className={styles.searchInner}>
-            <div className={styles.searchInner}>
+            <Button className={styles.searchInner}>
               <div className={styles.groupChild} />
-              <div className={styles.createATeam}>Create a Team</div>
-            </div>
+              <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
+            </Button>
           </div>
         </div>
         <div className={styles.logoMenu}>
@@ -117,14 +121,56 @@ open1 && <div className={styles.rectangleContainer1}>
 </div>
 }
 
-            <div className={styles.iconnavigationarrowBackIosGroup}>
+            <Button className={styles.iconnavigationarrowBackIosGroup1}>
               <img
                 className={styles.iconnavigationarrowBackIos1}
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork}>Explore</div>
-            </div>
+              <div className={styles.newYork1} onClick={handleClick2}style={{color:'white'}}>Explore</div>
+            </Button>
+            {
+
+open2 && <div className={styles.rectangleContainer2}>
+  <div className={styles.groupInner2} />
+  <div className={styles.rectangleDiv2} />
+  <div className={styles.groupChild3} />
+  <div className={styles.findCousreParent2}>
+    <div className={styles.findCousre}>Explore</div>
+    <div className={styles.findCousre1}>New</div>
+    <div className={styles.findCousre2}>Canada</div>
+    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
+    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
+  </div>
+  {/* <div className={styles.findCousreGroup}> */}
+    {/* <div className={styles.findCousre3}>Manage Profile</div>
+    <img
+      className={styles.composeDocumentEditPenPencIcon}
+      alt=""
+      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousreContainer}>
+    <div className={styles.findCousre4}>Account</div>
+    <img
+      className={styles.accountAvatarFaceManPeopleIcon}
+      alt=""
+      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
+  {/* <div className={styles.groupDiv}>
+    <div className={styles.findCousre4}>Help Center</div>
+    <img
+      className={styles.helpIconIconscom558911}
+      alt=""
+      src="/help-iconiconscom-55891-1.svg"
+    />
+  </div> */}
+  {/* <div className={styles.findCousre6}>Sign out</div> */}
+</div>
+}
           </div>
         </div>
         <div className={styles.finalLuckyDodoVar01Parent}>
@@ -145,7 +191,7 @@ open1 && <div className={styles.rectangleContainer1}>
         </div>
       </div>
       {/* <column /> */}
-      <div className={styles.search1}>
+      <Button className={styles.search1}>
         <div className={styles.rectangleGroup}>
           <div className={styles.groupItem} />
           <img
@@ -153,9 +199,9 @@ open1 && <div className={styles.rectangleContainer1}>
             alt=""
             src="/search-group.svg"
           />
-          <div className={styles.search2}>Search</div>
+          <div className={styles.search2}style={{color:'black'}}>Search</div>
         </div>
-      </div>
+      </Button>
       <div className={styles.sciFi}>
         <div className={styles.tileComponent}>
           <img className={styles.imageIcon} alt="" src="/image55@2x.png" />
