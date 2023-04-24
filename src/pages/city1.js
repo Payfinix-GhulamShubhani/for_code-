@@ -5,10 +5,26 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone';
 import Headerforall from "../components/Headerforall";
+
+import Paper from '@mui/material/Paper';
+import InputBase from '@mui/material/InputBase';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
+import DirectionsIcon from '@mui/icons-material/Directions';
 const LuckyHome1 = () => {
   const [open, setopen] = useState(false)
+  const [open1, setopen1] = useState(false)
+  const [open2, setopen2] = useState(false)
   const handleClick = () => {
     setopen(!open)
+  }
+  const handleClick1 = () => {
+    setopen1(!open1)
+  }
+  const handleClick2 = () => {
+    setopen1(!open1)
   }
   return (
     <div className={styles.luckyHome} >
@@ -50,21 +66,60 @@ const LuckyHome1 = () => {
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
             <b className={styles.start}>Start</b>
-            <div className={styles.iconnavigationarrowBackIosParent}>
+            <Button className={styles.iconnavigationarrowBackIosParent}>
               <img
                 className={styles.iconnavigationarrowBackIos}
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork12}>New York</div>
-            </div>
+              <div className={styles.newYork12} onClick={handleClick2} style={{color:'white'}}>New York</div>
+            </Button>
+            {
+
+open1 && <div className={styles.rectangleContainer1}>
+  <div className={styles.groupInner1} />
+  <div className={styles.rectangleDiv1} />
+  <div className={styles.groupChild2} />
+  <div className={styles.findCousreParent1}>
+    <div className={styles.findCousre}>London</div>
+    <div className={styles.findCousre1}>New York</div>
+    <div className={styles.findCousre2}>Canada</div>
+    
+  </div>
+  
+</div>
+}
+
             <div className={styles.iconnavigationarrowBackIosGroup}>
+            <Button className={styles.iconnavigationarrowBackIosParent}>
               <img
                 className={styles.iconnavigationarrowBackIos1}
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork12}>Explore</div>
+              <div className={styles.newYork12} onClick={handleClick1} style={{color:'white'}}>Explore</div>
+            </Button>
+            {
+
+open1 && <div className={styles.rectangleContainer1}>
+  <div className={styles.groupInner1} />
+  <div className={styles.rectangleDiv1} />
+  <div className={styles.groupChild2} />
+  <div className={styles.findCousreParent1}>
+    <div className={styles.findCousre}>London</div>
+    <div className={styles.findCousre1}>New York</div>
+    <div className={styles.findCousre2}>Canada</div>
+    
+  </div>
+  
+</div>
+}
+              {/* <img
+                className={styles.iconnavigationarrowBackIos1}
+                alt=""
+                src="/iconnavigationarrow-back-ios-24px.svg"
+              />
+              <div className={styles.newYork}>Explore</div> */}
             </div>
           </div>
         </div>
@@ -88,13 +143,33 @@ const LuckyHome1 = () => {
       {/* <column /> */}
       <div className={styles.search1}>
         <div className={styles.rectangleGroup}>
-          <div className={styles.groupItem} />
-          <img
+          {/* <div className={styles.groupItem} /> */}
+          {/* <img
             className={styles.searchGroupIcon}
             alt=""
             src="/search-group.svg"
           />
-          <div className={styles.search2}>Search</div>
+          <div className={styles.search2}>Search</div> */}
+          <Paper
+      component="form"
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
+    >
+      <IconButton sx={{ p: '10px' }} aria-label="menu">
+        <MenuIcon />
+      </IconButton>
+      <InputBase
+        sx={{ ml: 1, flex: 1 }}
+        placeholder="Search "
+        inputProps={{ 'aria-label': 'search' }}
+      />
+      <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
+        <SearchIcon />
+      </IconButton>
+      <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
+      <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions">
+        <DirectionsIcon />
+      </IconButton>
+    </Paper>
         </div>
       </div>
       

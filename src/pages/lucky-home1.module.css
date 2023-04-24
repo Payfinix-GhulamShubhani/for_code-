@@ -140,7 +140,7 @@
   top: 36.71%;
   right: 0.42%;
   bottom: 25.98%;
-  left: 85.03%;
+  left: 101.31%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -168,15 +168,24 @@
   top: 31.71%;
   right: 0.49%;
   bottom: 30.98%;
-  left: 82.31%;
+  left: 101.31%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
+.iconnavigationarrowBackIos2 {
+  position: absolute;
+  height: 37.31%;
+  width: 17.19%;
+  top: 31.71%;
+  margin-left: 20px;
+  /* left: 82.31%; */
+  
+}
 .iconnavigationarrowBackIosGroup {
   position: absolute;
   height: 100%;
-  width: 29.06%;
+  width: 17.06%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -186,7 +195,7 @@
 .menuItems {
   position: absolute;
   top: 3px;
-  left: 127px;
+  left: 104px;
   width: 265px;
   height: 20px;
 }
