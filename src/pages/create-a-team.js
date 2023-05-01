@@ -603,9 +603,9 @@ const CreateATeam = () => {
             src="/image-1689@2x.png"
           />
           <div className={styles.createATeamContainer}>
-            <span>Create a Team, Play to</span>
+            <span>Create a Team, Play to &nbsp;</span>
             <span className={styles.span}>{` `}</span>
-            <b>go to Paris</b>
+            <b>go to Paris</b>&nbsp;
             <span className={styles.span}>{` `}</span>
             <span>together</span>
           </div>

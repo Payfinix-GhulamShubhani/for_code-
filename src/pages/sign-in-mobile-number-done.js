@@ -80,9 +80,9 @@ const SignInMobileNumberDone = () => {
             </span>
           </div>
         </div>
-        <Button className={styles.button}  onClick={logiFunction}>
-          <div className={styles.continue}style={{color:'white'}}>Continue</div>
-        </Button>
+        <div className={styles.button}  onClick={logiFunction}>
+          <Button className={styles.continue}style={{color:'black'}}>Continue</Button>
+        </div>
       </div>
       <div className={styles.frameGroup}>
         <div className={styles.mobileNumberWrapper}>

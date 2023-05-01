@@ -79,7 +79,8 @@ const Headerforall = (props) => {
 
             {
 
-                open && <div className={styles.rectangleContainer}>
+                open && 
+                <div className={styles.rectangleContainer}>
                     <div className={styles.groupInner} />
                     <div className={styles.rectangleDiv} />
                     <div className={styles.groupChild1} />

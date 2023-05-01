@@ -21,6 +21,7 @@ import Favorit from "./pages/favorit";
 import Electronics from "./pages/electronics";
 import SignInMobileNumberDone from "./pages/sign-in-mobile-number-done";
 import City2 from "./pages/city2";
+// import CityNew from "./pages/citynew";
 import LuckyHome from "./pages/lucky-home";
 import LuckyHome1 from "./pages/lucky-home1";
 import EnterYourCodeDone from "./pages/enter-your-code-done";
@@ -116,6 +117,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/citynew":
+        title = "";
+        metaDescription = "";
+        break;
       case "/lucky-home":
         title = "";
         metaDescription = "";
@@ -193,6 +198,7 @@ function App() {
         element={<SignInMobileNumberDone />}
       />
       <Route path="/city2" element={<City2 />} />
+      {/* <Route path="/citynew" element={<CityNew />} /> */}
       <Route path="/lucky-home" element={<LuckyHome />} />
       <Route path="/lucky-home1" element={<LuckyHome1 />} />
       <Route path="/enter-your-code-done" element={<EnterYourCodeDone />} />

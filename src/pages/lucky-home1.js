@@ -25,6 +25,10 @@ const LuckyHome1 = () => {
     navigate("/create-a-team");
 
   }
+  const exploreFunction= ()=>{
+    navigate("/explore");
+
+  }
   return (
     <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
       <img className={styles.titleImageIcon} alt="" src="/titleimage@2x.png" />
@@ -143,7 +147,7 @@ open2 && <div className={styles.rectangleContainer2}>
   <div className={styles.rectangleDiv2} />
   <div className={styles.groupChild3} />
   <div className={styles.findCousreParent2}>
-    <div className={styles.findCousre}>Explore</div>
+    <Button className={styles.findCousre} onClick={exploreFunction} style={{color:'white'}}>Explore</Button>
     <div className={styles.findCousre1}>New</div>
     <div className={styles.findCousre2}>Canada</div>
     {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />

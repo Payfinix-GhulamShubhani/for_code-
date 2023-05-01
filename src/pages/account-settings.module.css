@@ -8,14 +8,17 @@
   height: 810px;
   object-fit: cover;
 }
+
 .unsplash129eq55lqhaIcon,
 .unsplashwh8lh2qzZsIcon {
   height: 960px;
 }
+
 .unsplashwh8lh2qzZsIcon {
   width: 2708px;
   height: 1805px;
 }
+
 .background,
 .bgFade {
   position: absolute;
@@ -25,6 +28,7 @@
   width: 1451px;
   height: 1807px;
 }
+
 .background {
   top: 1178px;
   left: 1214px;
@@ -33,12 +37,14 @@
   height: 215px;
   opacity: 0.5;
 }
+
 .eventsThings {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 110%;
 }
+
 .eventsThingsInNewYorkWrapper {
   position: absolute;
   top: 1284px;
@@ -48,6 +54,7 @@
   text-align: center;
   font-size: var(--font-size-21xl);
 }
+
 .groupChild {
   position: absolute;
   top: 0;
@@ -57,6 +64,7 @@
   width: 663px;
   height: 60px;
 }
+
 .searchGroupIcon {
   position: absolute;
   height: 36.67%;
@@ -69,12 +77,14 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .search1 {
   position: absolute;
   top: 22px;
   left: 70px;
   font-weight: 500;
 }
+
 .rectangleParent,
 .search {
   position: absolute;
@@ -83,6 +93,7 @@
   width: 663px;
   height: 60px;
 }
+
 .search {
   top: 1410px;
   left: 1602px;
@@ -90,6 +101,7 @@
   color: var(--color-darkslategray-400);
   font-family: var(--font-sf-pro-display);
 }
+
 .imageIcon {
   position: relative;
   border-radius: var(--br-9xs);
@@ -98,6 +110,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .tileComponent,
 .tileComponent1,
 .tileComponent2 {
@@ -111,13 +124,16 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .tileComponent1,
 .tileComponent2 {
   left: 551px;
 }
+
 .tileComponent2 {
   left: 1104px;
 }
+
 .playIcon {
   position: relative;
   border-radius: var(--br-21xl);
@@ -125,10 +141,12 @@
   height: 32px;
   flex-shrink: 0;
 }
+
 .controls {
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .controlBar,
 .controls,
 .reveal {
@@ -136,24 +154,29 @@
   flex-direction: row;
   align-items: flex-start;
 }
+
 .reveal {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
   justify-content: flex-start;
 }
+
 .controlBar {
   align-self: stretch;
   justify-content: space-between;
 }
+
 .match {
   line-height: 24px;
   color: var(--green);
 }
+
 .div,
 .match {
   position: relative;
 }
+
 .age {
   border: 1px solid var(--text-light-primary);
   display: flex;
@@ -164,19 +187,23 @@
   font-size: var(--font-size-3xs);
   font-family: var(--text-regular-normal);
 }
+
 .hd1,
 .season {
   position: relative;
   line-height: 24px;
 }
+
 .hd1 {
   line-height: 16px;
 }
+
 .hd,
 .showInfo {
   display: flex;
   justify-content: flex-start;
 }
+
 .hd {
   border-radius: var(--br-9xs);
   border: 1px solid var(--text-light-primary);
@@ -186,21 +213,25 @@
   font-size: var(--font-size-5xs);
   font-family: var(--text-regular-normal);
 }
+
 .showInfo {
   flex-direction: row;
   align-items: center;
   gap: var(--gap-5xs);
 }
+
 .mystery {
   position: relative;
   line-height: 18px;
 }
+
 .genreChild {
   position: relative;
   width: 4px;
   height: 4px;
   flex-shrink: 0;
 }
+
 .info,
 .tileComponent3,
 .tileComponent4 {
@@ -208,6 +239,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .info {
   background-color: var(--bg-header);
   width: 260px;
@@ -217,6 +249,7 @@
   gap: var(--gap-base);
   opacity: 0;
 }
+
 .tileComponent3,
 .tileComponent4 {
   position: absolute;
@@ -228,13 +261,16 @@
   overflow: hidden;
   align-items: center;
 }
+
 .tileComponent4 {
   left: 763px;
 }
+
 .seeAgain {
   position: relative;
   line-height: 32px;
 }
+
 .chevronRightIcon {
   position: relative;
   width: 24px;
@@ -242,6 +278,7 @@
   flex-shrink: 0;
   overflow: hidden;
 }
+
 .sectionTitle {
   position: absolute;
   top: 0;
@@ -254,6 +291,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--text-regular-normal);
 }
+
 .sciFi,
 .trendingNow {
   position: absolute;
@@ -262,14 +300,17 @@
   width: 1364px;
   height: 194px;
 }
+
 .trendingNow {
   top: 2019px;
 }
+
 .icon,
 .sectionTitle2 {
   position: absolute;
   top: 0;
 }
+
 .sectionTitle2 {
   left: 0;
   display: flex;
@@ -278,12 +319,14 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .icon {
   left: -1px;
   width: 131.33px;
   height: 185px;
   opacity: 0.25;
 }
+
 .imageIcon10 {
   position: relative;
   border-radius: var(--br-9xs);
@@ -292,6 +335,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .tileComponent10 {
   position: absolute;
   top: 0;
@@ -303,6 +347,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .icon1,
 .six {
   position: absolute;
@@ -311,12 +356,14 @@
   width: 234px;
   height: 185px;
 }
+
 .icon1 {
   top: 0;
   left: 0;
   width: 126.33px;
   opacity: 0.25;
 }
+
 .tileComponent11 {
   position: absolute;
   top: 0;
@@ -328,6 +375,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .five,
 .icon2 {
   position: absolute;
@@ -336,17 +384,20 @@
   width: 235px;
   height: 185px;
 }
+
 .icon2 {
   top: 0;
   left: 0;
   width: 143.5px;
   opacity: 0.25;
 }
+
 .four {
   top: 48px;
   left: 811px;
   width: 234px;
 }
+
 .four,
 .icon3,
 .icon4,
@@ -354,24 +405,28 @@
   position: absolute;
   height: 185px;
 }
+
 .icon3 {
   top: 0;
   left: 0;
   width: 128.75px;
   opacity: 0.25;
 }
+
 .icon4,
 .three {
   top: 48px;
   left: 552px;
   width: 235px;
 }
+
 .icon4 {
   top: 0;
   left: 0;
   width: 134.35px;
   opacity: 0.25;
 }
+
 .tileComponent14 {
   position: absolute;
   top: 0;
@@ -383,33 +438,39 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .two {
   top: 48px;
   left: 285px;
   width: 242px;
 }
+
 .icon5,
 .one,
 .two {
   position: absolute;
   height: 185px;
 }
+
 .icon5 {
   top: 0;
   left: 0;
   width: 108.5px;
   opacity: 0.25;
 }
+
 .one {
   top: 48px;
   left: 25px;
   width: 235px;
 }
+
 .seeAgainSection,
 .top10 {
   position: absolute;
   left: 1279px;
 }
+
 .top10 {
   top: 1730px;
   width: 1564px;
@@ -417,11 +478,13 @@
   font-size: var(--font-size-xl);
   font-family: var(--text-regular-normal);
 }
+
 .seeAgainSection {
   top: 1480px;
   width: 1364px;
   height: 194px;
 }
+
 .titleImageParent {
   position: absolute;
   top: -1178px;
@@ -431,6 +494,7 @@
   font-size: var(--button-small-button-text-small-size);
   font-family: var(--font-open-sans);
 }
+
 .accountSettingsChild {
   position: absolute;
   top: 58px;
@@ -439,6 +503,7 @@
   width: 100vw;
   height: 1251px;
 }
+
 .findCousre,
 .findCousre1,
 .findCousre2 {
@@ -448,13 +513,16 @@
   line-height: 30.5px;
   font-weight: 500;
 }
+
 .findCousre1,
 .findCousre2 {
   left: 1286px;
 }
+
 .findCousre2 {
   top: 0;
 }
+
 .findCousreParent {
   position: absolute;
   top: 84px;
@@ -463,6 +531,7 @@
   height: 187px;
   font-size: var(--text-regular-normal-size);
 }
+
 .groupItem {
   position: absolute;
   top: 0;
@@ -472,10 +541,12 @@
   width: 313px;
   height: 203px;
 }
+
 .buttonLabel {
   position: relative;
   letter-spacing: 0.01em;
 }
+
 .buttonBaseiconRight {
   position: absolute;
   top: 161px;
@@ -492,6 +563,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .groupIcon,
 .groupInner {
   position: absolute;
@@ -500,29 +572,34 @@
   width: 3px;
   height: 92px;
 }
+
 .groupIcon {
   top: 18px;
   left: 264px;
   width: 35px;
   height: 35px;
 }
+
 .groupChild1,
 .rectangleDiv {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .groupChild1 {
   width: 66px;
   height: 66px;
   object-fit: cover;
 }
+
 .rectangleDiv {
   border-radius: var(--br-7xs);
   background-color: var(--color-darkslategray-600);
   width: 160px;
   height: 35px;
 }
+
 .findCousre3 {
   position: absolute;
   top: 2px;
@@ -530,6 +607,7 @@
   line-height: 30.5px;
   font-weight: 500;
 }
+
 .groupContainer,
 .rectangleContainer {
   position: absolute;
@@ -538,6 +616,7 @@
   width: 160px;
   height: 35px;
 }
+
 .groupContainer {
   top: 18px;
   left: 18px;
@@ -546,6 +625,7 @@
   font-size: var(--text-regular-normal-size);
   color: var(--text-light-primary);
 }
+
 .rectangleGroup {
   position: absolute;
   top: 0;
@@ -553,6 +633,7 @@
   width: 313px;
   height: 203px;
 }
+
 .avatarImageIcon {
   position: absolute;
   top: 0;
@@ -561,6 +642,7 @@
   height: 20px;
   object-fit: cover;
 }
+
 .loremName,
 .nameName,
 .nameName1,
@@ -570,18 +652,22 @@
   left: 28px;
   letter-spacing: 0.01em;
 }
+
 .loremName,
 .nameName1,
 .nameName2 {
   top: 25px;
 }
+
 .nameName1,
 .nameName2 {
   top: 50px;
 }
+
 .nameName2 {
   top: 73px;
 }
+
 .avatarImageIcon1,
 .avatarImageIcon2 {
   position: absolute;
@@ -591,9 +677,11 @@
   height: 20px;
   object-fit: cover;
 }
+
 .avatarImageIcon2 {
   top: 72px;
 }
+
 .groupWrapper {
   position: absolute;
   top: 0;
@@ -601,6 +689,7 @@
   width: 107px;
   height: 92px;
 }
+
 .avatarImageIcon3 {
   position: absolute;
   top: 24px;
@@ -609,6 +698,7 @@
   height: 20px;
   object-fit: cover;
 }
+
 .groupDiv {
   position: absolute;
   top: 92px;
@@ -618,6 +708,7 @@
   font-size: var(--button-small-button-text-small-size);
   color: var(--text-light-primary);
 }
+
 .groupParent,
 .groupParent1,
 .groupParent4,
@@ -629,18 +720,22 @@
   height: 203px;
   color: var(--white);
 }
+
 .groupParent1,
 .groupParent4,
 .groupParent7 {
   left: 404px;
 }
+
 .groupParent4,
 .groupParent7 {
   left: 743px;
 }
+
 .groupParent7 {
   left: 1082px;
 }
+
 .findCousre7 {
   position: absolute;
   top: 0;
@@ -649,6 +744,7 @@
   line-height: 30.5px;
   font-weight: 500;
 }
+
 .groupChild18 {
   position: absolute;
   top: 0;
@@ -658,6 +754,7 @@
   width: 160px;
   height: 35px;
 }
+
 .findCousre8 {
   position: absolute;
   top: 2px;
@@ -665,6 +762,7 @@
   line-height: 30.5px;
   font-weight: 500;
 }
+
 .groupChild19 {
   position: absolute;
   top: 2px;
@@ -674,12 +772,14 @@
   width: 160px;
   height: 26px;
 }
+
 .findCousre9 {
   position: absolute;
   top: 0;
   left: 8px;
   line-height: 30.5px;
 }
+
 .rectangleParent7 {
   position: absolute;
   top: 38px;
@@ -690,6 +790,7 @@
   font-size: var(--button-small-button-text-small-size);
   color: var(--color-darkgray);
 }
+
 .groupParent10 {
   position: absolute;
   top: 53px;
@@ -697,6 +798,7 @@
   width: 235px;
   height: 66px;
 }
+
 .findCousre11 {
   position: absolute;
   top: 31px;
@@ -705,6 +807,7 @@
   line-height: 30.5px;
   color: var(--color-darkgray);
 }
+
 .groupParent11,
 .groupParent12 {
   position: absolute;
@@ -714,9 +817,11 @@
   height: 66px;
   display: none;
 }
+
 .groupParent12 {
   left: 528px;
 }
+
 .findCousreGroup {
   position: absolute;
   top: 84px;
@@ -725,6 +830,7 @@
   height: 119px;
   font-size: var(--font-size-xl);
 }
+
 .accountSettingsItem {
   position: absolute;
   top: 188px;
@@ -734,6 +840,7 @@
   width: 20px;
   height: 20px;
 }
+
 .div6 {
   position: absolute;
   top: 190px;
@@ -741,6 +848,7 @@
   font-size: var(--button-small-button-text-small-size);
   font-family: var(--font-inter);
 }
+
 .groupChild22 {
   position: absolute;
   top: 3px;
@@ -751,6 +859,7 @@
   height: 52px;
   display: none;
 }
+
 .groupChild23 {
   position: absolute;
   top: 0;
@@ -761,12 +870,14 @@
   width: 166px;
   height: 46px;
 }
+
 .save {
   position: absolute;
   top: 13px;
   left: 64px;
   font-weight: 600;
 }
+
 .rectangleParent8 {
   position: absolute;
   top: 267px;
@@ -777,6 +888,7 @@
   font-size: var(--text-regular-normal-size);
   font-family: var(--font-inter);
 }
+
 .groupChild24 {
   position: absolute;
   top: 0;
@@ -787,6 +899,7 @@
   width: 46px;
   height: 46px;
 }
+
 .vectorIcon {
   position: absolute;
   height: 24.45%;
@@ -799,6 +912,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .accountSettingsChild1,
 .rectangleParent10,
 .rectangleParent9 {
@@ -808,16 +922,19 @@
   width: 46px;
   height: 46px;
 }
+
 .accountSettingsChild1,
 .rectangleParent10 {
   top: 147px;
 }
+
 .accountSettingsChild1 {
   left: 65px;
   width: 66px;
   height: 66px;
   object-fit: cover;
 }
+
 .iconnavigationarrowBackIos {
   position: absolute;
   height: 70%;
@@ -830,6 +947,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .account {
   position: absolute;
   top: 0;
@@ -837,6 +955,7 @@
   line-height: 20px;
   font-weight: 600;
 }
+
 .deleteAccount {
   position: absolute;
   top: 3px;
@@ -848,6 +967,7 @@
   text-align: right;
   display: none;
 }
+
 .iconnavigationarrowBackIosParent {
   position: absolute;
   height: 3.77%;
@@ -858,6 +978,7 @@
   left: 4.93%;
   font-family: var(--font-open-sans);
 }
+
 .navigationChild {
   position: absolute;
   top: 0;
@@ -867,6 +988,7 @@
   width: 100vw;
   height: 60px;
 }
+
 .navigationItem {
   position: absolute;
   top: 12px;
@@ -875,6 +997,7 @@
   height: 34px;
   object-fit: cover;
 }
+
 .searchIcon {
   position: absolute;
   height: 37.93%;
@@ -888,6 +1011,7 @@
   max-height: 100%;
   display: none;
 }
+
 .groupChild26 {
   position: absolute;
   top: 0;
@@ -899,12 +1023,14 @@
   width: 133px;
   height: 34px;
 }
+
 .createATeam {
   position: absolute;
   top: 7px;
   left: 18px;
   font-weight: 600;
 }
+
 .search2,
 .searchInner {
   position: absolute;
@@ -913,10 +1039,12 @@
   width: 133px;
   height: 34px;
 }
+
 .search2 {
   top: 12px;
   left: 455px;
 }
+
 .logoIcon,
 .start {
   position: absolute;
@@ -924,14 +1052,17 @@
   left: 0;
   display: none;
 }
+
 .logoIcon {
   width: 111px;
   height: 26px;
   object-fit: cover;
 }
+
 .start {
   line-height: 20px;
 }
+
 .iconnavigationarrowBackIos1 {
   position: absolute;
   height: 37.31%;
@@ -944,6 +1075,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .newYork {
   position: absolute;
   top: 0;
@@ -951,6 +1083,7 @@
   line-height: 20px;
   font-weight: 600;
 }
+
 .iconnavigationarrowBackIosGroup {
   position: absolute;
   height: 100%;
@@ -960,6 +1093,7 @@
   bottom: 0;
   left: 26.42%;
 }
+
 .iconnavigationarrowBackIos2 {
   position: absolute;
   height: 37.31%;
@@ -972,6 +1106,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .iconnavigationarrowBackIosContainer {
   position: absolute;
   height: 100%;
@@ -981,6 +1116,7 @@
   bottom: 0;
   left: 70.94%;
 }
+
 .logoMenu,
 .menuItems {
   position: absolute;
@@ -989,12 +1125,14 @@
   width: 265px;
   height: 20px;
 }
+
 .logoMenu {
   top: 16px;
   left: 32px;
   width: 392px;
   height: 26px;
 }
+
 .finalLuckyDodoVar01Icon,
 .finalLuckyDodoVar05Icon {
   position: absolute;
@@ -1004,12 +1142,14 @@
   height: 56px;
   object-fit: cover;
 }
+
 .finalLuckyDodoVar05Icon {
   top: 0;
   left: 0;
   width: 98px;
   height: 55px;
 }
+
 .finalLuckyDodoVar01Parent {
   position: absolute;
   top: 0;
@@ -1017,6 +1157,7 @@
   width: 156px;
   height: 58px;
 }
+
 .icons {
   position: absolute;
   top: 17px;
@@ -1027,22 +1168,23 @@
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
+
 .groupChild27,
 .navigation {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .navigation {
-  background: linear-gradient(
-    180deg,
-    rgba(20, 20, 20, 0.5),
-    rgba(20, 20, 20, 0)
-  );
+  background: linear-gradient(180deg,
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0));
   width: 1440px;
   height: 58px;
   font-family: var(--font-open-sans);
 }
+
 .groupChild27 {
   border-radius: var(--br-5xs);
   background-color: var(--color-darkslategray-300);
@@ -1050,12 +1192,14 @@
   width: 238px;
   height: 46px;
 }
+
 .textmailloremcom {
   position: absolute;
   top: 15px;
   left: 17px;
   font-weight: 600;
 }
+
 .rectangleParent12 {
   position: absolute;
   top: 0;
@@ -1063,12 +1207,14 @@
   width: 238px;
   height: 46px;
 }
+
 .mail {
   position: absolute;
   top: 15px;
   left: 0;
   font-weight: 600;
 }
+
 .accountSettingsInner1,
 .groupWrapper3 {
   position: absolute;
@@ -1077,11 +1223,13 @@
   width: 361px;
   height: 46px;
 }
+
 .accountSettingsInner1 {
   top: 147px;
   left: 161px;
   font-family: var(--font-inter);
 }
+
 .groupChild28 {
   position: absolute;
   top: 0;
@@ -1092,6 +1240,7 @@
   width: 238px;
   height: 46px;
 }
+
 .iconnavigationarrowBackIos3 {
   position: absolute;
   height: 2.19%;
@@ -1104,6 +1253,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .frameDiv {
   position: absolute;
   top: 37px;
@@ -1112,6 +1262,7 @@
   height: 100px;
   overflow: hidden;
 }
+
 .image1Icon {
   position: absolute;
   top: 18px;
@@ -1121,12 +1272,14 @@
   height: 11px;
   object-fit: cover;
 }
+
 .div7 {
   position: absolute;
   top: 14px;
   left: 143px;
   font-weight: 600;
 }
+
 .rectangleParent13 {
   position: absolute;
   top: 0;
@@ -1134,6 +1287,7 @@
   width: 315px;
   height: 137px;
 }
+
 .accountSettingsInner2,
 .phoneNumberParent {
   position: absolute;
@@ -1142,11 +1296,13 @@
   width: 361px;
   height: 137px;
 }
+
 .accountSettingsInner2 {
   top: 205px;
   left: 161px;
   font-family: var(--font-inter);
 }
+
 .groupChild29,
 .groupChild31 {
   position: absolute;
@@ -1157,18 +1313,21 @@
   width: 388px;
   height: 301px;
 }
+
 .groupChild31 {
   background-color: var(--color-steelblue-100);
   backdrop-filter: blur(44px);
   width: 56px;
   height: 26px;
 }
+
 .save1 {
   position: absolute;
   top: 5px;
   left: 14px;
   font-weight: 500;
 }
+
 .rectangleParent15 {
   position: absolute;
   top: 236px;
@@ -1178,6 +1337,7 @@
   text-align: center;
   font-family: var(--font-inter);
 }
+
 .groupChild32 {
   position: absolute;
   top: 0;
@@ -1188,6 +1348,7 @@
   width: 249px;
   height: 36px;
 }
+
 .oldPassword {
   position: absolute;
   top: 7px;
@@ -1195,6 +1356,7 @@
   line-height: 20px;
   font-weight: 600;
 }
+
 .rectangleParent16 {
   position: absolute;
   top: 0;
@@ -1202,6 +1364,7 @@
   width: 249px;
   height: 36px;
 }
+
 .groupWrapper7,
 .groupWrapper8,
 .groupWrapper9 {
@@ -1211,13 +1374,16 @@
   width: 249px;
   height: 36px;
 }
+
 .groupWrapper8,
 .groupWrapper9 {
   top: 136px;
 }
+
 .groupWrapper9 {
   top: 182px;
 }
+
 .changePassword,
 .password {
   position: absolute;
@@ -1225,13 +1391,16 @@
   line-height: 20px;
   font-weight: 600;
 }
+
 .changePassword {
   top: 19px;
   font-size: var(--button-normal-button-text-size);
 }
+
 .password {
   top: 65px;
 }
+
 .rectangleParent14 {
   position: absolute;
   top: 147px;
@@ -1241,6 +1410,7 @@
   font-size: var(--button-small-button-text-small-size);
   font-family: var(--font-open-sans);
 }
+
 .groupChild35 {
   position: absolute;
   top: 0;
@@ -1250,6 +1420,7 @@
   width: 388px;
   height: 250px;
 }
+
 .privacySettings {
   position: absolute;
   top: 19px;
@@ -1260,6 +1431,7 @@
   font-family: var(--font-open-sans);
   text-align: left;
 }
+
 .groupChild37 {
   position: absolute;
   top: 0;
@@ -1270,6 +1442,7 @@
   width: 102px;
   height: 36px;
 }
+
 .groupChild38 {
   position: absolute;
   top: 5px;
@@ -1277,12 +1450,14 @@
   width: 26px;
   height: 26px;
 }
+
 .download {
   position: absolute;
   top: 10px;
   left: 36px;
   font-weight: 600;
 }
+
 .rectangleParent20 {
   position: absolute;
   top: 27px;
@@ -1290,6 +1465,7 @@
   width: 102px;
   height: 36px;
 }
+
 .personalData {
   position: absolute;
   top: 0;
@@ -1299,6 +1475,7 @@
   font-family: var(--font-open-sans);
   text-align: left;
 }
+
 .groupChild40,
 .groupParent14 {
   position: absolute;
@@ -1307,6 +1484,7 @@
   width: 102px;
   height: 63px;
 }
+
 .groupChild40 {
   top: 0;
   left: 0;
@@ -1316,6 +1494,7 @@
   width: 133px;
   height: 36px;
 }
+
 .groupParent15,
 .rectangleParent21 {
   position: absolute;
@@ -1324,11 +1503,13 @@
   width: 133px;
   height: 36px;
 }
+
 .groupParent15 {
   top: 143px;
   left: 27px;
   height: 63px;
 }
+
 .rectangleParent19 {
   position: absolute;
   top: 147px;
@@ -1339,6 +1520,7 @@
   font-size: var(--button-small-button-text-small-size);
   font-family: var(--font-inter);
 }
+
 .accountSettings {
   position: relative;
   background-color: var(--text-light-primary);
@@ -1349,4 +1531,14 @@
   font-size: var(--button-normal-button-text-size);
   color: var(--text-light-primary);
   font-family: var(--button-normal-button-text);
+}
+
+@media (max-width: 500px)  {
+
+  .accountSettings {
+   
+    background-color: black;
+
+  }
+
 }
