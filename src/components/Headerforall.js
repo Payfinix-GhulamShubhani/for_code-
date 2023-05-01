@@ -32,7 +32,7 @@ const Headerforall = (props) => {
                 <div className={styles.navigationItem1}>
 
                     <Button sx={{color:'#ffffff'}}>
-                        <FavoriteBorderTwoToneIcon />
+                        <FavoriteBorderTwoToneIcon  />
                     </Button>
                     <Button sx={{color:'#ffffff'}}>
                         <SettingsTwoToneIcon />
