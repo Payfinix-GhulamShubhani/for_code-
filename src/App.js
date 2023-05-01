@@ -183,7 +183,6 @@ function App() {
       <Route path="/" element={<SignInFormWhite />} />
       <Route path="/avatars" element={<Avatars />} />
       <Route path="/my-profile-groups-done" element={<MyProfileGroupsDone />} />
-      <Route path="/my-profile-groups-edit" element={<MyProfileGroupsEdit />} />
       <Route path="/lucky-menu" element={<LuckyMenu />} />
       <Route path="/create-a-team1" element={<CreateATeam1 />} />
       <Route path="/info-7" element={<Info7 />} />
@@ -206,6 +205,7 @@ function App() {
       <Route path="/explore" element={<Explore />} />
       <Route path="/create-a-team" element={<CreateATeam />} />
       <Route path="/account-settings" element={<AccountSettings />} />
+      <Route path="/my-profile-groups-edit" element={<MyProfileGroupsEdit />} />
       <Route path="/create-account-6" element={<CreateAccount6 />} />
       <Route path="/register" element={<Register />} />
       <Route path="/info" element={<Info />} />

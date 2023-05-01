@@ -136,6 +136,7 @@ const Headerforall = (props) => {
                           src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
                       />
                     </Box>
+                    <Box className={styles.findCousre6}>Sign out</Box>
                 </Box>
                 
             }
