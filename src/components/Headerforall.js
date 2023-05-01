@@ -7,15 +7,20 @@ import styles from "./header.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 
 const Headerforall = (props) => {
+    const navigate = useNavigate();
     const [open, setopen] = useState(false)
     const handleClick = () => {
         setopen(!open)
     }
     const location = useLocation().pathname
     console.log("location",location);
+    const handleClick1 = ()=>{
+        navigate('/create-a-team')
+    }
     return (
         <div >
             <div className={props.val === "true" ? styles.navigation : styles.navigation1}>
@@ -23,13 +28,13 @@ const Headerforall = (props) => {
                
                 <div className={styles.navigationItem1}>
 
-                    <Button>
+                    <Button sx={{color:'#ffffff'}}>
                         <FavoriteBorderTwoToneIcon />
                     </Button>
-                    <Button>
+                    <Button sx={{color:'#ffffff'}}>
                         <SettingsTwoToneIcon />
                     </Button>
-                    <Button onClick={handleClick}>
+                    <Button onClick={handleClick} sx={{color:'#ffffff'}}>
                         <AccountCircleIcon />
                     </Button>
                 </div>
@@ -64,15 +69,15 @@ const Headerforall = (props) => {
                         </div> */}
                         <Box >
 
-                        <Stack className={styles.iconnavigationarrowBackIosParent} sx={{display:'flex'}} >
+                        <Stack className={styles.iconnavigationarrowBackIosParent} sx={{display:'flex'}} onClick={()=>{navigate('/city1')}} >
                             <Typography variant='subtitle1' sx={{color:'#ffffff'}} className={styles.newYork} > New York 
                            
-                            </Typography><Typography variant='subtitle2' sx={{ml:9}}>  {location === '/city' ? <ExpandMoreIcon />  : <ExpandLessIcon />}</Typography>
+                            </Typography><Typography variant='subtitle2' sx={{ml:9}}>  {location === '/city1' ? <ExpandLessIcon />  :   <ExpandMoreIcon />}</Typography>
                         </Stack>
-                        <Stack className={styles.iconnavigationarrowBackIosGroup}  >
+                        <Stack className={styles.iconnavigationarrowBackIosGroup} onClick={()=>{navigate('/explore')}}  >
                             <Typography variant='subtitle1' className={styles.newYork} sx={{color:'#ffffff'}} > 
                             Explore  </Typography>
-                            <Typography variant='subtitle2' sx={{ml:8}}>  {location === '/explore' ? <ExpandMoreIcon />  : <ExpandLessIcon />}</Typography>
+                            <Typography variant='subtitle2' sx={{ml:8}}>  {location === '/explore' ? <ExpandLessIcon />  :   <ExpandMoreIcon /> }</Typography>
                            
                         </Stack>
                         </Box>

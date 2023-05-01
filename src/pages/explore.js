@@ -7,15 +7,16 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { useNavigate } from "react-router-dom";
- 
+import Headerforall from "../components/Headerforall";
+
 const Explore = () => {
   const navigate = useNavigate();
-  const teamFunction= ()=>{
+  const teamFunction = () => {
     navigate("/create-a-team");
 
   }
 
-  const cityPage= ()=>{
+  const cityPage = () => {
     navigate("/city1");
 
   }
@@ -132,40 +133,36 @@ const Explore = () => {
             <div className={styles.groupPlay}>Group Play</div>
           </div>
         </div>
-        <div className={styles.logoMenu}>
+
+        {/* <div className={styles.logoMenu}>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
             <b className={styles.start}>Start</b>
-            {/* <div className={styles.iconnavigationarrowBackIosParent}> */}
+           
             <div className={styles.iconnavigationarrowBackIosParent}>
-                            <img
-                                className={styles.iconnavigationarrowBackIos}
-                                alt=""
-                                src="/iconnavigationarrow-back-ios-24px.svg"
-                            />
-                            <div className={styles.newYork} onClick={cityPage}>New York</div>
-                        </div>
-                        <div className={styles.iconnavigationarrowBackIosGroup}>
-                            <img
-                                className={styles.iconnavigationarrowBackIos1}
-                                alt=""
-                                src="/iconnavigationarrow-back-ios-24px.svg"
-                            />
-                            <div className={styles.newYork}>Explore</div>
-                        </div>
-        
+              <img
+                className={styles.iconnavigationarrowBackIos}
+                alt=""
+                src="/iconnavigationarrow-back-ios-24px.svg"
+              />
+              <div className={styles.newYork} onClick={cityPage}>New York</div>
+            </div>
+            <div className={styles.iconnavigationarrowBackIosGroup}>
+              <img
+                className={styles.iconnavigationarrowBackIos1}
+                alt=""
+                src="/iconnavigationarrow-back-ios-24px.svg"
+              />
+              <div className={styles.newYork}>Explore</div>
+            </div>
+
           </div>
-        </div>
-        
-        
-             {/* <MenuItem value={10} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={20} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={30} className={styles.newYork}>New York</MenuItem> */}
-          {/* <MenuItem value={310}>New York</MenuItem> */}
-          {/* <MenuItem value={20}>New York</MenuItem> */}
-          {/* <MenuItem value={30}>New York</MenuItem>  */}
- 
-  
+        </div> */}
+
+        <Headerforall/>
+
+
+
         <div className={styles.finalLuckyDodoVar01Parent}>
           <img
             className={styles.finalLuckyDodoVar01Icon}
@@ -182,14 +179,14 @@ const Explore = () => {
           <img className={styles.chevronRightIcon} alt="" src="/search1.svg" />
           <img className={styles.chevronRightIcon} alt="" src="/bell.svg" />
         </div>
-        <div className={styles.search3}>
+        {/* <div className={styles.search3}>
           <div className={styles.searchInner}>
             <Button className={styles.searchInner}>
               <Button className={styles.groupInner} />
-              <div className={styles.createATeam} style={{color:'white', margin:'-3px -5px', textAlign:'center'}} onClick={teamFunction}>Create a Team</div>
+              <div className={styles.createATeam} style={{ color: 'white', margin: '-3px -5px', textAlign: 'center' }} onClick={teamFunction}>Create a Team</div>
             </Button>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.lorem}>Lorem</div>
       <div className={styles.loremImput}>Lorem imput</div>

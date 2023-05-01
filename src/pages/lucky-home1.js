@@ -21,11 +21,11 @@ const LuckyHome1 = () => {
   }
   const navigate = useNavigate();
 
-  const teamFunction= ()=>{
+  const teamFunction = () => {
     navigate("/create-a-team");
 
   }
-  const exploreFunction= ()=>{
+  const exploreFunction = () => {
     navigate("/explore");
 
   }
@@ -56,28 +56,34 @@ const LuckyHome1 = () => {
         <div className={styles.navigationItem1}>
 
           <Button>
-            <FavoriteBorderTwoToneIcon style={{color
-            :'white'}}/>
+            <FavoriteBorderTwoToneIcon style={{
+              color
+                : 'white'
+            }} />
           </Button>
           <Button>
-            <SettingsTwoToneIcon style={{color
-            :'white'}} />
+            <SettingsTwoToneIcon style={{
+              color
+                : 'white'
+            }} />
           </Button>
           <Button onClick={handleClick}>
-            <AccountCircleIcon style={{color
-            :'white'}}/>
+            <AccountCircleIcon style={{
+              color
+                : 'white'
+            }} />
           </Button>
         </div>
         <img className={styles.searchIcon} alt="" src="/search.svg" />
         <div className={styles.search}>
           <div className={styles.searchInner}>
-            <Button className={styles.searchInner}  onClick={teamFunction}>
+            <Button className={styles.searchInner} onClick={teamFunction}>
               <div className={styles.groupChild} />
-              <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
+              <div className={styles.createATeam} style={{ color: 'white' }}>Create a Team</div>
             </Button>
           </div>
         </div>
-        <div className={styles.logoMenu}>
+        {/* <div className={styles.logoMenu}>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
             <b className={styles.start}>Start</b>
@@ -87,50 +93,23 @@ const LuckyHome1 = () => {
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork} onClick={handleClick1} style={{color:'white'}}>New York</div>
+              <div className={styles.newYork} onClick={handleClick1} style={{ color: 'white' }}>New York</div>
             </Button>
             {
 
-open1 && <div className={styles.rectangleContainer1}>
-  <div className={styles.groupInner1} />
-  <div className={styles.rectangleDiv1} />
-  <div className={styles.groupChild2} />
-  <div className={styles.findCousreParent1}>
-    <div className={styles.findCousre}>London</div>
-    <div className={styles.findCousre1}>New York</div>
-    <div className={styles.findCousre2}>Canada</div>
-    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
-    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
-    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
-  </div>
-  {/* <div className={styles.findCousreGroup}> */}
-    {/* <div className={styles.findCousre3}>Manage Profile</div>
-    <img
-      className={styles.composeDocumentEditPenPencIcon}
-      alt=""
-      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousreContainer}>
-    <div className={styles.findCousre4}>Account</div>
-    <img
-      className={styles.accountAvatarFaceManPeopleIcon}
-      alt=""
-      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
-  {/* <div className={styles.groupDiv}>
-    <div className={styles.findCousre4}>Help Center</div>
-    <img
-      className={styles.helpIconIconscom558911}
-      alt=""
-      src="/help-iconiconscom-55891-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousre6}>Sign out</div> */}
-</div>
-}
+              open1 && <div className={styles.rectangleContainer1}>
+                <div className={styles.groupInner1} />
+                <div className={styles.rectangleDiv1} />
+                <div className={styles.groupChild2} />
+                <div className={styles.findCousreParent1}>
+                  <div className={styles.findCousre}>London</div>
+                  <div className={styles.findCousre1}>New York</div>
+                  <div className={styles.findCousre2}>Canada</div>
+
+                </div>
+
+              </div>
+            }
 
             <Button className={styles.iconnavigationarrowBackIosGroup1}>
               <img
@@ -138,52 +117,27 @@ open1 && <div className={styles.rectangleContainer1}>
                 alt=""
                 src="/iconnavigationarrow-back-ios-24px.svg"
               />
-              <div className={styles.newYork1} onClick={handleClick2}style={{color:'white'}}>Explore</div>
+              <div className={styles.newYork1} onClick={handleClick2} style={{ color: 'white' }}>Explore</div>
             </Button>
             {
 
-open2 && <div className={styles.rectangleContainer2}>
-  <div className={styles.groupInner2} />
-  <div className={styles.rectangleDiv2} />
-  <div className={styles.groupChild3} />
-  <div className={styles.findCousreParent2}>
-    <Button className={styles.findCousre} onClick={exploreFunction} style={{color:'white'}}>Explore</Button>
-    <div className={styles.findCousre1}>New</div>
-    <div className={styles.findCousre2}>Canada</div>
-    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
-    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
-    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
-  </div>
-  {/* <div className={styles.findCousreGroup}> */}
-    {/* <div className={styles.findCousre3}>Manage Profile</div>
-    <img
-      className={styles.composeDocumentEditPenPencIcon}
-      alt=""
-      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousreContainer}>
-    <div className={styles.findCousre4}>Account</div>
-    <img
-      className={styles.accountAvatarFaceManPeopleIcon}
-      alt=""
-      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
-  {/* <div className={styles.groupDiv}>
-    <div className={styles.findCousre4}>Help Center</div>
-    <img
-      className={styles.helpIconIconscom558911}
-      alt=""
-      src="/help-iconiconscom-55891-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousre6}>Sign out</div> */}
-</div>
-}
+              open2 && <div className={styles.rectangleContainer2}>
+                <div className={styles.groupInner2} />
+                <div className={styles.rectangleDiv2} />
+                <div className={styles.groupChild3} />
+                <div className={styles.findCousreParent2}>
+                  <Button className={styles.findCousre} onClick={exploreFunction} style={{ color: 'white' }}>Explore</Button>
+                  <div className={styles.findCousre1}>New</div>
+                  <div className={styles.findCousre2}>Canada</div>
+
+                </div>
+
+              </div>
+            }
           </div>
-        </div>
+        </div> */}
+        <Headerforall />
+
         <div className={styles.finalLuckyDodoVar01Parent}>
           <img
             className={styles.finalLuckyDodoVar01Icon}
@@ -210,7 +164,7 @@ open2 && <div className={styles.rectangleContainer2}>
             alt=""
             src="/search-group.svg"
           />
-          <div className={styles.search2}style={{color:'black'}}>Search</div>
+          <div className={styles.search2} style={{ color: 'black' }}>Search</div>
         </div>
       </Button>
       <div className={styles.sciFi}>

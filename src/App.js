@@ -186,11 +186,9 @@ function App() {
       <Route path="/my-profile-groups-done" element={<MyProfileGroupsDone />} />
       <Route path="/my-profile-groups-edit" element={<MyProfileGroupsEdit />} />
       <Route path="/lucky-menu" element={<LuckyMenu />} />
-      <Route path="/create-a-team" element={<CreateATeam />} />
       <Route path="/create-a-team1" element={<CreateATeam1 />} />
       <Route path="/info-7" element={<Info7 />} />
       <Route path="/info-6" element={<Info6 />} />
-      <Route path="/explore" element={<Explore />} />
       <Route path="/city" element={<City />} />
       <Route path="/favorit" element={<Favorit />} />
       <Route path="/electronics" element={<Electronics />} />
@@ -206,6 +204,8 @@ function App() {
       <Route path="/genrate-your-pin-done" element={<Genrateyourpindone />} />
       <Route path="/lucky-home1" element={<LuckyHome1 />} />
       <Route path="/city1" element={<City1 />} />
+      <Route path="/explore" element={<Explore />} />
+      <Route path="/create-a-team" element={<CreateATeam />} />
       <Route path="/create-account-6" element={<CreateAccount6 />} />
       <Route path="/register" element={<Register />} />
       <Route path="/info" element={<Info />} />
