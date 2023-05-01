@@ -6,7 +6,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone';
 import Headerforall from "../components/Headerforall";
+import FavoPop from "../components/FavoPop";
 const LuckyHome1 = () => {
+  const [favOpen, setfavOpen] = useState(false)
   const [open, setopen] = useState(false)
   const [open1, setopen1] = useState(false)
   const [open2, setopen2] = useState(false)
@@ -29,6 +31,8 @@ const LuckyHome1 = () => {
     navigate("/explore");
 
   }
+  
+  console.log("setfavOpen+++++++++++++++++++",favOpen);
   return (
     <div className={styles.luckyHome} style={{ minHeight: '285vh' }}>
       <img className={styles.titleImageIcon} alt="" src="/titleimage@2x.png" />
@@ -83,60 +87,8 @@ const LuckyHome1 = () => {
             </Button>
           </div>
         </div>
-        {/* <div className={styles.logoMenu}>
-          <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
-          <div className={styles.menuItems}>
-            <b className={styles.start}>Start</b>
-            <Button className={styles.iconnavigationarrowBackIosParent}>
-              <img
-                className={styles.iconnavigationarrowBackIos}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              />
-              <div className={styles.newYork} onClick={handleClick1} style={{ color: 'white' }}>New York</div>
-            </Button>
-            {
-
-              open1 && <div className={styles.rectangleContainer1}>
-                <div className={styles.groupInner1} />
-                <div className={styles.rectangleDiv1} />
-                <div className={styles.groupChild2} />
-                <div className={styles.findCousreParent1}>
-                  <div className={styles.findCousre}>London</div>
-                  <div className={styles.findCousre1}>New York</div>
-                  <div className={styles.findCousre2}>Canada</div>
-
-                </div>
-
-              </div>
-            }
-
-            <Button className={styles.iconnavigationarrowBackIosGroup1}>
-              <img
-                className={styles.iconnavigationarrowBackIos1}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              />
-              <div className={styles.newYork1} onClick={handleClick2} style={{ color: 'white' }}>Explore</div>
-            </Button>
-            {
-
-              open2 && <div className={styles.rectangleContainer2}>
-                <div className={styles.groupInner2} />
-                <div className={styles.rectangleDiv2} />
-                <div className={styles.groupChild3} />
-                <div className={styles.findCousreParent2}>
-                  <Button className={styles.findCousre} onClick={exploreFunction} style={{ color: 'white' }}>Explore</Button>
-                  <div className={styles.findCousre1}>New</div>
-                  <div className={styles.findCousre2}>Canada</div>
-
-                </div>
-
-              </div>
-            }
-          </div>
-        </div> */}
-        <Headerforall />
+        
+        <Headerforall favOpen={favOpen} setfavOpen={setfavOpen}/>
 
         <div className={styles.finalLuckyDodoVar01Parent}>
           <img
@@ -245,6 +197,7 @@ const LuckyHome1 = () => {
                 <div className={styles.hd1}>HD</div>
               </div>
             </div>
+            {favOpen ? <FavoPop /> : null}
             <div className={styles.showInfo}>
               <div className={styles.mystery}>Mystery</div>
               <img className={styles.genreChild} alt="" />

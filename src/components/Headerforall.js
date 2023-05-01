@@ -6,6 +6,7 @@ import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone
 import styles from "./header.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FavoPop from './FavoPop';
 import { Navigate, useLocation } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
@@ -13,9 +14,13 @@ import { useNavigate } from "react-router-dom";
 const Headerforall = (props) => {
     const navigate = useNavigate();
     const [open, setopen] = useState(false)
+    const [favOpen, setfavOpen] = useState(false)
     const handleClick = () => {
         setopen(!open)
     }
+    function handleClick4() {
+        setfavOpen(!favOpen);
+      }
     const location = useLocation().pathname
     console.log("location",location);
     const handleClick1 = ()=>{
@@ -24,6 +29,8 @@ const Headerforall = (props) => {
     const handlenavigate =()=>{
         console.log("45678fghjcvbjfghj");
     }
+
+    console.log(props,"------------------------------------------------");
     return (
         <div >
             <div className={props.val === "true" ? styles.navigation : styles.navigation1}>
@@ -32,7 +39,9 @@ const Headerforall = (props) => {
                 <div className={styles.navigationItem1}>
 
                     <Button sx={{color:'#ffffff'}}>
-                        <FavoriteBorderTwoToneIcon  />
+                        <FavoriteBorderTwoToneIcon onClick={handleClick4} />
+                        {/* {favOpen ? <FavoPop /> : null} */}
+                        {!favOpen && <FavoPop />}
                     </Button>
                     <Button sx={{color:'#ffffff'}}>
                         <SettingsTwoToneIcon />

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styles from './ElectronicsPop.module.css'
 const ElectroPop = () => {
   return (
      <div className={styles.vectorParent}>

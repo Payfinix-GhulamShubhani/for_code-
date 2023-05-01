@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styles from './FavoPop.module.css'
 const FavoPop = () => {
   return (
     <div className={styles.vectorParent}>
