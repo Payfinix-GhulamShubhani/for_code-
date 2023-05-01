@@ -1,7 +1,10 @@
+import { Typography } from "@mui/material";
 import styles from "./sign-in-welcome.module.css";
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 const SignInWelcome = () => {
+  const [IsShown,setIsShown]=useState('false')
   const navigate = useNavigate();
 
   const mobiFunction= ()=>{
@@ -49,13 +52,15 @@ const SignInWelcome = () => {
         />
       </div>
       <div className={styles.continueWithFacebookLeftParent}>
-        <div className={styles.continueWithFacebookLeft}>
+        <div className={styles.continueWithFacebookLeft} 
+        onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)}> 
           <img
             className={styles.facebookLogoIcon}
             alt=""
             src="/facebook-logo.svg"
           />
-          <b className={styles.continueWithFacebook}>Continue with Facebook</b>
+          <div className={styles.continueWithFacebook}>Continue with Facebook</div>
         </div>
         <div className={styles.continueWithAppleLeftAli}>
           <img
@@ -70,9 +75,12 @@ const SignInWelcome = () => {
           <div className={styles.groupInner} />
           <div className={styles.or}>or</div>
         </div>
-        <div className={styles.button}>
+        <Button className={styles.button} style={{backgroundColor:'#007DFA', color: '#FFFFFF'}}>
+          <Typography className={styles.mobileNumber1} style={{color:"black"}}  onClick={mobiFunction}>Mobile number</Typography>
+        </Button>
+        {/* <div className={styles.button}>
           <Button className={styles.mobileNumber1} style={{color:"black"}}  onClick={mobiFunction}>Mobile number</Button>
-        </div>
+        </div> */}
       </div>
       <div className={styles.continueWithGoogleLeftAl}>
         <img className={styles.googleLogoIcon} alt="" src="/google-logo.svg" />

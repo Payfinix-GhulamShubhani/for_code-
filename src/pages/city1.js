@@ -62,11 +62,13 @@ const LuckyHome1 = () => {
             </Button>
           </div>
         </div>
-        <div className={styles.logoMenu}>
+
+        <Headerforall />
+        {/* <div className={styles.logoMenu}>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
-            <b className={styles.start}>Start</b>
-            <Button className={styles.iconnavigationarrowBackIosParent}>
+          <b className={styles.start}>Start</b>
+          <Button className={styles.iconnavigationarrowBackIosParent}>
               <img
                 className={styles.iconnavigationarrowBackIos}
                 alt=""
@@ -84,12 +86,10 @@ open1 && <div className={styles.rectangleContainer1}>
     <div className={styles.findCousre}>London</div>
     <div className={styles.findCousre1}>New York</div>
     <div className={styles.findCousre2}>Canada</div>
-    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
-    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
-    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
+    
   </div>
  
-  {/* <div className={styles.findCousre6}>Sign out</div> */}
+  
 </div>
 }
 
@@ -111,40 +111,14 @@ open2 && <div className={styles.rectangleContainer2}>
     <div className={styles.findCousre}>Explore</div>
     <div className={styles.findCousre1}>New</div>
     <div className={styles.findCousre2}>Canada</div>
-    {/* <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
-    <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
-    <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" /> */}
+    
   </div>
-  {/* <div className={styles.findCousreGroup}> */}
-    {/* <div className={styles.findCousre3}>Manage Profile</div>
-    <img
-      className={styles.composeDocumentEditPenPencIcon}
-      alt=""
-      src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousreContainer}>
-    <div className={styles.findCousre4}>Account</div>
-    <img
-      className={styles.accountAvatarFaceManPeopleIcon}
-      alt=""
-      src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.composeDocumentEditPenPenc} /> */}
-  {/* <div className={styles.groupDiv}>
-    <div className={styles.findCousre4}>Help Center</div>
-    <img
-      className={styles.helpIconIconscom558911}
-      alt=""
-      src="/help-iconiconscom-55891-1.svg"
-    />
-  </div> */}
-  {/* <div className={styles.findCousre6}>Sign out</div> */}
+  
 </div>
 }
           </div>
-        </div>
+        </div> */}
+        
         <div className={styles.finalLuckyDodoVar01Parent}>
           <img
             className={styles.finalLuckyDodoVar01Icon}

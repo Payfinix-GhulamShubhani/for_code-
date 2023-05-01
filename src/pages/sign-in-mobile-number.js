@@ -91,7 +91,7 @@ const SignInMobileNumber = () => {
             </span>
           </div>
         </div>
-        <Button className={styles.button}>
+        <Button className={styles.button} style={{backgroundColor:'#007DFA',color: '#FFFFFF'}}>
           <div className={styles.continue}  onClick={contiFunction}>Continue</div>
         </Button>
       </div>

@@ -32,6 +32,8 @@ import CreateAccount6 from "./pages/create-account-6";
 import Register from "./pages/register";
 import SignInFormWhite from "./pages/sign-in-form-white";
 import { useEffect } from "react";
+import GenrateYourPin from "./pages/GenrateYourPin";
+import Genrateyourpindone from "./pages/Genrate-your-pin-done";
 
 function App() {
   const action = useNavigationType();
@@ -190,21 +192,20 @@ function App() {
       <Route path="/info-6" element={<Info6 />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="/city" element={<City />} />
-      <Route path="/city1" element={<City1 />} />
       <Route path="/favorit" element={<Favorit />} />
       <Route path="/electronics" element={<Electronics />} />
-      <Route
-        path="/sign-in-mobile-number-done"
-        element={<SignInMobileNumberDone />}
-      />
       <Route path="/city2" element={<City2 />} />
       {/* <Route path="/citynew" element={<CityNew />} /> */}
       <Route path="/lucky-home" element={<LuckyHome />} />
-      <Route path="/lucky-home1" element={<LuckyHome1 />} />
-      <Route path="/enter-your-code-done" element={<EnterYourCodeDone />} />
-      <Route path="/enter-your-code" element={<EnterYourCode />} />
-      <Route path="/sign-in-mobile-number" element={<SignInMobileNumber />} />
       <Route path="/sign-in-welcome" element={<SignInWelcome />} />
+      <Route path="/sign-in-mobile-number" element={<SignInMobileNumber />} />
+      <Route path="/sign-in-mobile-number-done" element={<SignInMobileNumberDone />}/>
+      <Route path="/enter-your-code" element={<EnterYourCode />} />
+      <Route path="/enter-your-code-done" element={<EnterYourCodeDone />} />
+      <Route path="/genrate-your-code" element={<GenrateYourPin />} />
+      <Route path="/genrate-your-pin-done" element={<Genrateyourpindone />} />
+      <Route path="/lucky-home1" element={<LuckyHome1 />} />
+      <Route path="/city1" element={<City1 />} />
       <Route path="/create-account-6" element={<CreateAccount6 />} />
       <Route path="/register" element={<Register />} />
       <Route path="/info" element={<Info />} />

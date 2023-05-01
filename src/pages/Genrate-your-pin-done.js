@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
 import styles from "./enter-your-code-done.module.css";
 import { Typography } from "@mui/material";
-const EnterYourCodeDone = () => {
+const Genrateyourpindone = () => {
   const navigate = useNavigate();
 
   const codeFunction= ()=>{
@@ -139,4 +139,4 @@ const EnterYourCodeDone = () => {
   );
 };
 
-export default EnterYourCodeDone;
+export default Genrateyourpindone;

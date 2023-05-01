@@ -1,18 +1,7 @@
-import Headerforall from "../components/Headerforall";
-import { useNavigate } from "react-router-dom";
-import Button from '@mui/material/Button';
-import styles from "./enter-your-code-done.module.css";
-import { Typography } from "@mui/material";
-const EnterYourCodeDone = () => {
-  const navigate = useNavigate();
-
-  const codeFunction= ()=>{
-    navigate("/lucky-home1");
-
-  }
+import styles from "./enter-your-code.module.css";
+const GenrateYourPin = () => {
   return (
-    <div className={styles.enterYourCodeDone}>
-      
+    <div className={styles.enterYourCode}>
       <div className={styles.column}>
         <div className={styles.parent}>
           <img className={styles.icon} alt="" src="/.svg" />
@@ -36,7 +25,7 @@ const EnterYourCodeDone = () => {
           src="/mobile--light--solid.svg"
         />
       </div>
-      {/* <div className={styles.welcomeHowDoYouToGetStaParent}>
+      <div className={styles.welcomeHowDoYouToGetStaParent}>
         <div className={styles.welcomeHowDo}>
           Welcome! How do you to get started?
         </div>
@@ -67,13 +56,13 @@ const EnterYourCodeDone = () => {
               Sign up with you number instead
             </div>
           </div>
-          <div className={styles.button}  >
-            <div className={styles.continue} >Continue</div>
+          <div className={styles.button}>
+            <div className={styles.continue}>Continue</div>
           </div>
         </div>
         <div className={styles.frameGroup}>
           <div className={styles.mobileNumberWrapper}>
-            <div className={styles.mobileNumber} >Mobile number</div>
+            <div className={styles.mobileNumber}>Mobile number</div>
           </div>
           <div className={styles.wrapper}>
             <div className={styles.mobileNumber}>9456784567</div>
@@ -85,44 +74,38 @@ const EnterYourCodeDone = () => {
             src="/mobile--light--solid.svg"
           />
         </div>
-      </div> */}
-      <div className={styles.enterYourCodeDoneChild} />
-      <div className={styles.updateContactInfo}>Update contact info</div>
-      <Button className={styles.button1}  onClick={codeFunction} style={{backgroundColor:'#007DFA', color: '#FFFFFF',position: 'absolute'}}>
-        <Typography className={styles.continue} style={{color:'white'}}>Continue</Typography>
-      </Button>
+      </div>
+      <div className={styles.enterYourCodeChild} />
+      <div className={styles.whenYouTapContainer}>
+        <span>{`When you tap “Continue”, LuckyDodo will send a text with a verification code. Message and data rates may apply. The verified phone number can be used to login. `}</span>
+        <span className={styles.learnWhatHappens}>
+          Learn what happens when your number changes.
+        </span>
+      </div>
+      <div className={styles.button1}>
+        <div className={styles.continue}>Continue</div>
+      </div>
       <div className={styles.groupParent}>
         <div className={styles.frameContainer}>
-          <div className={styles.frame}>
-            <div className={styles.div2}>4</div>
-          </div>
-          <div className={styles.frameDiv}>
-            <div className={styles.div2}>4</div>
-          </div>
-          <div className={styles.wrapper1}>
-            <div className={styles.div2}>4</div>
-          </div>
-          <div className={styles.wrapper2}>
-            <div className={styles.div5}>8</div>
-          </div>
-          <div className={styles.wrapper3}>
-            <div className={styles.div2}>4</div>
-          </div>
-          <div className={styles.wrapper4}>
-            <div className={styles.div5}>5</div>
-          </div>
+          <div className={styles.frameDiv} />
+          <div className={styles.groupChild1} />
+          <div className={styles.groupChild2} />
+          <div className={styles.groupChild3} />
+          <div className={styles.groupChild4} />
+          <div className={styles.groupChild5} />
         </div>
-        <div className={styles.div8}>945 6784567</div>
+        <div className={styles.div2}>+945 6784567</div>
         <div className={styles.resend}>Resend</div>
+        <div className={styles.updateContactInfo}>Update contact info</div>
       </div>
       <div className={styles.rectangleGroup}>
         <div className={styles.rectangleDiv} />
         <div className={styles.rectangleContainer}>
-          <div className={styles.groupChild1} />
-          <div className={styles.groupChild2} />
+          <div className={styles.groupChild6} />
+          <div className={styles.groupChild7} />
         </div>
       </div>
-      <div className={styles.enterYourCode}>Enter your code</div>
+      <div className={styles.enterYourCode1}>Enter your code</div>
       <div className={styles.finalLuckyDodoVar01Parent}>
         <img
           className={styles.finalLuckyDodoVar01Icon}
@@ -139,4 +122,4 @@ const EnterYourCodeDone = () => {
   );
 };
 
-export default EnterYourCodeDone;
+export default GenrateYourPin;

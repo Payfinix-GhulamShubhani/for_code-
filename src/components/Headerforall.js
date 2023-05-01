@@ -1,15 +1,21 @@
 import React, { useState } from 'react'
-import { Button } from "@mui/material";
+import { Box, Button, Stack, Typography } from "@mui/material";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone';
 import styles from "./header.module.css";
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useLocation } from 'react-router-dom';
+
 
 const Headerforall = (props) => {
     const [open, setopen] = useState(false)
     const handleClick = () => {
         setopen(!open)
     }
+    const location = useLocation().pathname
+    console.log("location",location);
     return (
         <div >
             <div className={props.val === "true" ? styles.navigation : styles.navigation1}>
@@ -40,7 +46,7 @@ const Headerforall = (props) => {
                     <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
                     <div className={styles.menuItems}>
                         <b className={styles.start}>Start</b>
-                        <div className={styles.iconnavigationarrowBackIosParent}>
+                        {/* <div className={styles.iconnavigationarrowBackIosParent}>
                             <img
                                 className={styles.iconnavigationarrowBackIos}
                                 alt=""
@@ -55,7 +61,21 @@ const Headerforall = (props) => {
                                 src="/iconnavigationarrow-back-ios-24px.svg"
                             />
                             <div className={styles.newYork}>Explore</div>
-                        </div>
+                        </div> */}
+                        <Box >
+
+                        <Stack className={styles.iconnavigationarrowBackIosParent} sx={{display:'flex'}} >
+                            <Typography variant='subtitle1' sx={{color:'#ffffff'}} className={styles.newYork} > New York 
+                           
+                            </Typography><Typography variant='subtitle2' sx={{ml:9}}>  {location === '/city' ? <ExpandMoreIcon />  : <ExpandLessIcon />}</Typography>
+                        </Stack>
+                        <Stack className={styles.iconnavigationarrowBackIosGroup}  >
+                            <Typography variant='subtitle1' className={styles.newYork} sx={{color:'#ffffff'}} > 
+                            Explore  </Typography>
+                            <Typography variant='subtitle2' sx={{ml:8}}>  {location === '/explore' ? <ExpandMoreIcon />  : <ExpandLessIcon />}</Typography>
+                           
+                        </Stack>
+                        </Box>
                     </div>
                 </div>
                 <div className={styles.finalLuckyDodoVar01Parent}>
