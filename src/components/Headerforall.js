@@ -10,6 +10,10 @@ const Headerforall = (props) => {
     const handleClick = () => {
         setopen(!open)
     }
+    const [openTeams, setopenTeams] = useState(false)
+    const handleClick1 = () => {
+        setopenTeams(!setopenTeams)
+    }
     return (
         <div >
             <div className={props.val === "true" ? styles.navigation : styles.navigation1}>
@@ -32,7 +36,7 @@ const Headerforall = (props) => {
                     <div className={styles.searchInner}>
                         <div className={styles.searchInner}>
                             <div className={styles.groupChild} />
-                            <div className={styles.createATeam}>Create a Team</div>
+                            <div className={styles.createATeam} onClick={handleClick1}>Create a Team</div>
                         </div>
                     </div>
                 </div>

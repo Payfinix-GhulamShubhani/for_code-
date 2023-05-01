@@ -6,7 +6,19 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import { useNavigate } from "react-router-dom";
+ 
 const Explore = () => {
+  const navigate = useNavigate();
+  const teamFunction= ()=>{
+    navigate("/create-a-team");
+
+  }
+
+  const cityPage= ()=>{
+    navigate("/city1");
+
+  }
   const [age, setAge] = React.useState('');
 
   const handleChange = (event) => {
@@ -120,63 +132,30 @@ const Explore = () => {
             <div className={styles.groupPlay}>Group Play</div>
           </div>
         </div>
-        <Button className={styles.logoMenu}>
+        <div className={styles.logoMenu}>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
             <b className={styles.start}>Start</b>
-            <div  className={styles.iconnavigationarrowBackIosParent}  style={{ color:'white', display: 'flex', alignItems: 'center', marginLeft: '3px', padding:'3px' }}>
-              {/* <img
-                className={styles.iconnavigationarrowBackIos15}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              /> */}
-              <FormControl fullWidth    >
-        <InputLabel id="demo-simple-select-label" style={{color:'white' }}>New York</InputLabel>
-        <Select style={{color:'white' }}
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={age}
-          label="New York"
-          onChange={handleChange}
-          >
-             <MenuItem value={10} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={20} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={30} className={styles.newYork}>New York</MenuItem>
-          {/* <MenuItem value={310}>New York</MenuItem> */}
-          {/* <MenuItem value={20}>New York</MenuItem> */}
-          {/* <MenuItem value={30}>New York</MenuItem>  */}
-        </Select>
-      </FormControl>
-              {/* <MenuItem value={10} className={styles.newYork}>New York</MenuItem> */}
-            </div>
-            <div  className={styles.iconnavigationarrowBackIosParent}  style={{ color:'white', display: 'flex', alignItems: 'center', marginLeft: '100px', padding:'3px' }}>
-              {/* <img
-                className={styles.iconnavigationarrowBackIos15}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              /> */}
-              <FormControl fullWidth    >
-        <InputLabel id="demo-simple-select-label" style={{color:'white' }}>Explore</InputLabel>
-        <Select style={{color:'white' }}
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          value={age}
-          label="New York"
-          onChange={handleChange}
-          >
-             <MenuItem value={10} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={20} className={styles.newYork}>New York</MenuItem>
-             <MenuItem value={30} className={styles.newYork}>New York</MenuItem>
-          {/* <MenuItem value={310}>New York</MenuItem> */}
-          {/* <MenuItem value={20}>New York</MenuItem> */}
-          {/* <MenuItem value={30}>New York</MenuItem>  */}
-        </Select>
-      </FormControl>
-              {/* <MenuItem value={10} className={styles.newYork}>New York</MenuItem> */}
-            </div>
+            {/* <div className={styles.iconnavigationarrowBackIosParent}> */}
+            <div className={styles.iconnavigationarrowBackIosParent}>
+                            <img
+                                className={styles.iconnavigationarrowBackIos}
+                                alt=""
+                                src="/iconnavigationarrow-back-ios-24px.svg"
+                            />
+                            <div className={styles.newYork} onClick={cityPage}>New York</div>
+                        </div>
+                        <div className={styles.iconnavigationarrowBackIosGroup}>
+                            <img
+                                className={styles.iconnavigationarrowBackIos1}
+                                alt=""
+                                src="/iconnavigationarrow-back-ios-24px.svg"
+                            />
+                            <div className={styles.newYork}>Explore</div>
+                        </div>
         
           </div>
-        </Button>
+        </div>
         
         
              {/* <MenuItem value={10} className={styles.newYork}>New York</MenuItem>
@@ -207,7 +186,7 @@ const Explore = () => {
           <div className={styles.searchInner}>
             <Button className={styles.searchInner}>
               <Button className={styles.groupInner} />
-              <div className={styles.createATeam} style={{color:'white', margin:'-3px -5px', textAlign:'center'}}>Create a Team</div>
+              <div className={styles.createATeam} style={{color:'white', margin:'-3px -5px', textAlign:'center'}} onClick={teamFunction}>Create a Team</div>
             </Button>
           </div>
         </div>

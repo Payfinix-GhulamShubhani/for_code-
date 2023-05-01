@@ -1017,8 +1017,8 @@
 }
 .explore {
   position: relative;
-  background-color: var(--text-light-primary);
-  width: 93.8vw;
+  background-color:  #1b2330;;
+  width: 98.8vw ;
   /* margin-right: -32%; */
   height: 742px;
   overflow: hidden;
