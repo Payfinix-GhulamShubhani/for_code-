@@ -107,47 +107,37 @@ const Headerforall = (props) => {
 
             {
 
-                open && 
-                <div className={styles.rectangleContainer} >
-                    <div className={styles.groupInner} />
-                    <div className={styles.rectangleDiv} />
-                    <div className={styles.groupChild1} />
-                    <div className={styles.findCousreParent}>
-                        <div className={styles.findCousre}>Artur</div>
-                        <div className={styles.findCousre1}>Lorem ipsum</div>
-                        <div className={styles.findCousre2}>Kids</div>
-                        <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+                open &&
+                 <Box className={styles.rectangleContainer}>
+                    <Box className={styles.groupInner} />
+                    <Box className={styles.rectangleBox} />
+                    <Box className={styles.groupChild1} />
+                    <Box className={styles.findCousreParent}>
+                    <Box className={styles.findCousre} >Artur</Box>
+                    <Box className={styles.findCousre1}>Lorem ipsum</Box>
+                    <Box className={styles.findCousre2} onClick={()=>{navigate('/city1')}}>Kids</Box>
+                    <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
                         <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
                         <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" />
-                    </div>
+                    </Box>
                     <Box className={styles.findCousreGroup} onClick={()=>{navigate('/explore')}} >
-                        <div className={styles.findCousre3} onClick={handlenavigate}>Manage Profile</div>
-                        <img
+                    <Box className={styles.findCousre3} onClick={handlenavigate}>Manage Profile</Box>
+                    <img
                             className={styles.composeDocumentEditPenPencIcon}
                             alt=""
                             src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
                         />
                     </Box>
-                    <div className={styles.findCousreContainer} >
-                        <div className={styles.findCousre4} onClick={()=>Navigate('/')} >Account</div>
-                        {/* <div className={styles.findCousre4} onClick={()=>{navigate('/account-settings')}}>Account</div> */}
-                        <img
+                    <Box className={styles.findCousreContainer}>
+                    <div className={styles.findCousre4} onClick={()=>{navigate('/account-settings')}}>Account</div>
+                    <img
                             className={styles.accountAvatarFaceManPeopleIcon}
-                            alt=""
-                            src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
-                        />
-                    </div>
-                    <div className={styles.composeDocumentEditPenPenc} />
-                    <div className={styles.groupDiv}>
-                        <div className={styles.findCousre4}>Help Center</div>
-                        <img
-                            className={styles.helpIconIconscom558911}
-                            alt=""
-                            src="/help-iconiconscom-55891-1.svg"
-                        />
-                    </div>
-                    <div className={styles.findCousre6}>Sign out</div>
-                </div>
+                          alt=""
+                          src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
+                      />
+                    </Box>
+                </Box>
+                
             }
 
 
@@ -157,3 +147,47 @@ const Headerforall = (props) => {
 }
 
 export default Headerforall
+
+
+
+
+// {/* <Box className={styles.rectangleContainer} >
+//                     <Box className={styles.groupInner} />
+//                     <Box className={styles.rectangleBox} />
+//                     <Box className={styles.groupChild1} />
+//                     <Box className={styles.findCousreParent}>
+//                         <Box className={styles.findCousre}>Artur</Box>
+//                         <Box className={styles.findCousre1}>Lorem ipsum</Box>
+//                         <Box className={styles.findCousre2}>Kids</Box>
+                        // <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
+                        // <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
+                        // <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" />
+//                     </Box>
+//                     <Box className={styles.findCousreGroup} onClick={()=>{navigate('/explore')}} >
+//                         <Box className={styles.findCousre3} onClick={handlenavigate}>Manage Profile</Box>
+//                         <img
+//                             className={styles.composeDocumentEditPenPencIcon}
+//                             alt=""
+//                             src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
+//                         />
+//                     </Box>
+//                     <Box className={styles.findCousreContainer} >
+//                         <Box className={styles.findCousre4} onClick={()=>Navigate('/')} >Account</Box>
+//                         {/* <Box className={styles.findCousre4} onClick={()=>{navigate('/account-settings')}}>Account</Box> */}
+//                         <img
+//                             className={styles.accountAvatarFaceManPeopleIcon}
+//                             alt=""
+//                             src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
+//                         />
+//                     </Box>
+//                     <Box className={styles.composeDocumentEditPenPenc} />
+//                     <Box className={styles.groupBox}>
+//                         <Box className={styles.findCousre4}>Help Center</Box>
+//                         <img
+//                             className={styles.helpIconIconscom558911}
+//                             alt=""
+//                             src="/help-iconiconscom-55891-1.svg"
+//                         />
+//                     </Box>
+//                     <Box className={styles.findCousre6}>Sign out</Box>
+//                 </Box> */}
