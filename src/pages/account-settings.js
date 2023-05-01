@@ -1,3 +1,4 @@
+import Headerforall from "../components/Headerforall";
 import styles from "./account-settings.module.css";
 const AccountSettings = () => {
   return (
@@ -682,6 +683,7 @@ const AccountSettings = () => {
             </div>
           </div>
         </div>
+{/*         
         <div className={styles.logoMenu}>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           <div className={styles.menuItems}>
@@ -703,7 +705,9 @@ const AccountSettings = () => {
               <div className={styles.newYork}>Explore</div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Headerforall />
+
         <div className={styles.finalLuckyDodoVar01Parent}>
           <img
             className={styles.finalLuckyDodoVar01Icon}

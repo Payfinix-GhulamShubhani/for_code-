@@ -6,7 +6,7 @@ import FavoriteBorderTwoToneIcon from '@mui/icons-material/FavoriteBorderTwoTone
 import styles from "./header.module.css";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useLocation } from 'react-router-dom';
+import { Navigate, useLocation } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
 
@@ -20,6 +20,9 @@ const Headerforall = (props) => {
     console.log("location",location);
     const handleClick1 = ()=>{
         navigate('/create-a-team')
+    }
+    const handlenavigate =()=>{
+        console.log("45678fghjcvbjfghj");
     }
     return (
         <div >
@@ -105,7 +108,7 @@ const Headerforall = (props) => {
             {
 
                 open && 
-                <div className={styles.rectangleContainer}>
+                <div className={styles.rectangleContainer} >
                     <div className={styles.groupInner} />
                     <div className={styles.rectangleDiv} />
                     <div className={styles.groupChild1} />
@@ -117,16 +120,17 @@ const Headerforall = (props) => {
                         <img className={styles.photoIcon1} alt="" src="/photo1@2x.png" />
                         <img className={styles.photoIcon2} alt="" src="/photo2@2x.png" />
                     </div>
-                    <div className={styles.findCousreGroup}>
-                        <div className={styles.findCousre3}>Manage Profile</div>
+                    <Box className={styles.findCousreGroup} onClick={()=>{navigate('/explore')}} >
+                        <div className={styles.findCousre3} onClick={handlenavigate}>Manage Profile</div>
                         <img
                             className={styles.composeDocumentEditPenPencIcon}
                             alt=""
                             src="/4213412composedocumenteditpenpencilwrite-115364-1.svg"
                         />
-                    </div>
-                    <div className={styles.findCousreContainer}>
-                        <div className={styles.findCousre4}>Account</div>
+                    </Box>
+                    <div className={styles.findCousreContainer} >
+                        <div className={styles.findCousre4} onClick={()=>Navigate('/')} >Account</div>
+                        {/* <div className={styles.findCousre4} onClick={()=>{navigate('/account-settings')}}>Account</div> */}
                         <img
                             className={styles.accountAvatarFaceManPeopleIcon}
                             alt=""

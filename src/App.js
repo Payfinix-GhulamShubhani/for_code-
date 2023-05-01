@@ -181,7 +181,6 @@ function App() {
 
     <Routes>
       <Route path="/" element={<SignInFormWhite />} />
-      <Route path="/account-settings" element={<AccountSettings />} />
       <Route path="/avatars" element={<Avatars />} />
       <Route path="/my-profile-groups-done" element={<MyProfileGroupsDone />} />
       <Route path="/my-profile-groups-edit" element={<MyProfileGroupsEdit />} />
@@ -206,11 +205,12 @@ function App() {
       <Route path="/city1" element={<City1 />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="/create-a-team" element={<CreateATeam />} />
+      <Route path="/account-settings" element={<AccountSettings />} />
       <Route path="/create-account-6" element={<CreateAccount6 />} />
       <Route path="/register" element={<Register />} />
       <Route path="/info" element={<Info />} />
     </Routes>
    
-  );
-}
-export default App;
+   );
+  }
+  export default App;

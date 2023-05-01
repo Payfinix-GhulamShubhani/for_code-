@@ -34,109 +34,12 @@ const LuckyHome1 = () => {
       {/* <div className={styles.background} /> */}
       {/* <div className={styles.eventsThingsInNewYorkWrapper}> */}
         {/* <b className={styles.eventsThings}>{`Events & Things in New York`}</b> */}
-      {/* </div> */}
-
-      {/* <Headerforall/> */}
-
-      <div className={styles.navigation}>
-        <div className={styles.navigationChild} />
-
-        <div className={styles.navigationItem1}>
-
-          <Button>
-            <FavoriteBorderTwoToneIcon />
-          </Button>
-          <Button>
-            <SettingsTwoToneIcon />
-          </Button>
-          <Button onClick={handleClick}>
-            <AccountCircleIcon />
-          </Button>
-        </div>
-        <img className={styles.searchIcon} alt="" src="/search.svg" />
-        <div className={styles.search}>
-          <div className={styles.searchInner}>
-            <Button className={styles.searchInner}>
-              <div className={styles.groupChild} />
-              <div className={styles.createATeam} style={{color:'white'}}>Create a Team</div>
-            </Button>
-          </div>
-        </div>
-
         <Headerforall />
-        {/* <div className={styles.logoMenu}>
-          <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
-          <div className={styles.menuItems}>
-          <b className={styles.start}>Start</b>
-          <Button className={styles.iconnavigationarrowBackIosParent}>
-              <img
-                className={styles.iconnavigationarrowBackIos}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              />
-              <div className={styles.newYork12} onClick={handleClick1} style={{color:'white'}}>New York</div>
-            </Button>
-            {
+      
 
-open1 && <div className={styles.rectangleContainer1}>
-  <div className={styles.groupInner1} />
-  <div className={styles.rectangleDiv1} />
-  <div className={styles.groupChild2} />
-  <div className={styles.findCousreParent1}>
-    <div className={styles.findCousre}>London</div>
-    <div className={styles.findCousre1}>New York</div>
-    <div className={styles.findCousre2}>Canada</div>
-    
-  </div>
  
-  
-</div>
-}
-
-            <Button className={styles.iconnavigationarrowBackIosGroup1}>
-              <img
-                className={styles.iconnavigationarrowBackIos1}
-                alt=""
-                src="/iconnavigationarrow-back-ios-24px.svg"
-              />
-              <div className={styles.newYork1} onClick={handleClick2}style={{color:'white'}}>Explore</div>
-            </Button>
-            {
-
-open2 && <div className={styles.rectangleContainer2}>
-  <div className={styles.groupInner2} />
-  <div className={styles.rectangleDiv2} />
-  <div className={styles.groupChild3} />
-  <div className={styles.findCousreParent2}>
-    <div className={styles.findCousre}>Explore</div>
-    <div className={styles.findCousre1}>New</div>
-    <div className={styles.findCousre2}>Canada</div>
-    
-  </div>
-  
-</div>
-}
-          </div>
-        </div> */}
-        
-        <div className={styles.finalLuckyDodoVar01Parent}>
-          <img
-            className={styles.finalLuckyDodoVar01Icon}
-            alt=""
-            src="/final-lucky-dodo-var01@2x.png"
-          />
-          <img
-            className={styles.finalLuckyDodoVar05Icon}
-            alt=""
-            src="/final-lucky-dodo-var05@2x.png"
-          />
-        </div>
-        <div className={styles.icons}>
-          <img className={styles.bellIcon} alt="" src="/search3.svg" />
-          <img className={styles.bellIcon} alt="" src="/bell1.svg" />
-        </div>
-      </div>
-      {/* <column /> */}
+      
+     
       <div className={styles.search1}>
         <div className={styles.rectangleGroup}>
           {/* <div className={styles.groupItem} /> */}
