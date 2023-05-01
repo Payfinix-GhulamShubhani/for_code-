@@ -136,6 +136,14 @@ const Headerforall = (props) => {
                           src="/account-avatar-face-man-people-profile-user-icon-123197-1.svg"
                       />
                     </Box>
+                    <Box className={styles.groupDiv}>
+            <div className={styles.findCousre4}>Help Center</div>
+            <img
+              className={styles.helpIconIconscom558911}
+              alt=""
+              src="/help-iconiconscom-55891-1.svg"
+            />
+          </Box>
                     <Box className={styles.findCousre6}>Sign out</Box>
                 </Box>
                 

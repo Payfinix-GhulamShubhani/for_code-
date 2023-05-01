@@ -380,13 +380,13 @@ const MyProfileGroupsEdit = () => {
         <div className={styles.navigationItem1}>
 
         <Button>
-        <FavoriteBorderTwoToneIcon  style={{color:'white'}}/>
+        <FavoriteBorderTwoToneIcon />
         </Button>
         <Button>
-        <SettingsTwoToneIcon style={{color:'white'}} />
+        <SettingsTwoToneIcon />
         </Button>
         <Button onClick={handleClick}>
-        <AccountCircleIcon  style={{color:'white'}}/>
+        <AccountCircleIcon />
         </Button>
         </div>
         {
