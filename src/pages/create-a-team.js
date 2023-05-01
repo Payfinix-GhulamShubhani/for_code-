@@ -1,5 +1,17 @@
 import styles from "./create-a-team.module.css";
+import React, { useState } from 'react'
+import { useNavigate } from "react-router-dom";
 const CreateATeam = () => {
+  const navigate = useNavigate();
+
+  const signFunction= ()=>{
+    navigate("/lucky-home1");
+
+  }
+  const [openTeams, setopenTeams] = useState(false)
+  const handleClick1 = () => {
+      setopenTeams(!setopenTeams)
+  }
   return (
     <div className={styles.createATeam}>
       <div className={styles.titleImageParent}>
@@ -614,7 +626,7 @@ const CreateATeam = () => {
         <div className={styles.button2}>
           <div className={styles.buttonBaseiconLeft}>
             <img className={styles.icon7} alt="" src="/icon1.svg" />
-            <div className={styles.buttonLabel}>Back to homepage</div>
+            <div className={styles.buttonLabel} onClick={signFunction}>Back to homepage</div>
           </div>
         </div>
       </div>

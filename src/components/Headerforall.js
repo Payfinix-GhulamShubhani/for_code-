@@ -38,7 +38,7 @@ const Headerforall = (props) => {
                     <div className={styles.searchInner}>
                         <div className={styles.searchInner}>
                             <div className={styles.groupChild} />
-                            <div className={styles.createATeam}>Create a Team</div>
+                            <div className={styles.createATeam} onClick={handleClick1}>Create a Team</div>
                         </div>
                     </div>
                 </div>
