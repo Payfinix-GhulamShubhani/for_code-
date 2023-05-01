@@ -41,6 +41,7 @@ const Headerforall = (props) => {
                         <AccountCircleIcon />
                     </Button>
                 </div>
+                
                 <img className={styles.searchIcon} alt="" src="/search.svg" />
                 <div className={styles.search}>
                     <div className={styles.searchInner}>

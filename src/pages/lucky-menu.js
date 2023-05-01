@@ -110,6 +110,7 @@ const LuckyMenu = () => {
             <div className={styles.search2}>Search</div>
           </div>
         </div>
+        
         <div className={styles.sciFi}>
           <div className={styles.tileComponent}>
             <img className={styles.imageIcon} alt="" src="/image@2x.png" />

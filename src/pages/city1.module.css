@@ -304,7 +304,7 @@
 .search1 {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -96px;
   width: 663px;
   height: 60px;
 }

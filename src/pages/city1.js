@@ -36,12 +36,17 @@ const LuckyHome1 = () => {
         {/* <b className={styles.eventsThings}>{`Events & Things in New York`}</b> */}
         <Headerforall />
       
-
- 
-      
-     
-      <div className={styles.search1}>
+        <div className={styles.search1}>
         <div className={styles.rectangleGroup}>
+          <div className={styles.groupItem} />
+          <img
+            className={styles.searchGroupIcon}
+            alt=""
+            src="/search-group.svg"
+          />
+          <div className={styles.search2}>Search</div>
+        </div>
+      </div>
           {/* <div className={styles.groupItem} /> */}
           {/* <img
             className={styles.searchGroupIcon}
@@ -49,28 +54,39 @@ const LuckyHome1 = () => {
             src="/search-group.svg"
           />
           <div className={styles.search2}>Search</div> */}
-          <Paper
+          {/* <Paper
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
-    >
-      <IconButton sx={{ p: '10px' }} aria-label="menu">
+    > */}
+      {/* <IconButton sx={{ p: '10px' }} aria-label="menu">
         <MenuIcon />
-      </IconButton>
-      <InputBase
+      </IconButton> */}
+      {/* <InputBase
         sx={{ ml: 1, flex: 1 }}
         placeholder="Search "
         inputProps={{ 'aria-label': 'search' }}
-      />
-      <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
-        <SearchIcon />
-      </IconButton>
-      <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-      <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions">
-        <DirectionsIcon />
-      </IconButton>
-    </Paper>
+      /> */}
+      {/* <IconButton type="button" sx={{ p: '10px' }} aria-label="search"> */}
+        {/* <SearchIcon /> */}
+        <div className={styles.search1}>
+        <div className={styles.rectangleGroup}>
+          <div className={styles.groupItem} />
+          <img
+            className={styles.searchGroupIcon}
+            alt=""
+            src="/search-group.svg"
+          />
+          <div className={styles.search2}>Search</div>
         </div>
       </div>
+      {/* </IconButton> */}
+      {/* <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" /> */}
+      {/* <IconButton color="primary" sx={{ p: '10px' }} aria-label="directions"> */}
+        {/* <DirectionsIcon /> */}
+      {/* </IconButton> */}
+    {/* </Paper> */}
+        {/* </div> */}
+      {/* // </div> */}
       
       <div>
       <div className={styles.tileComponent21}>

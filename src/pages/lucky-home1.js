@@ -156,7 +156,18 @@ const LuckyHome1 = () => {
         </div>
       </div>
       {/* <column /> */}
-      <Button className={styles.search1}>
+      <div className={styles.search1}>
+        <div className={styles.rectangleGroup}>
+          <div className={styles.groupItem} />
+          <img
+            className={styles.searchGroupIcon}
+            alt=""
+            src="/search-group.svg"
+          />
+          <div className={styles.search2}>Search</div>
+        </div>
+      </div>
+      {/* <Button className={styles.search1}>
         <div className={styles.rectangleGroup}>
           <div className={styles.groupItem} />
           <img
@@ -166,7 +177,7 @@ const LuckyHome1 = () => {
           />
           <div className={styles.search2} style={{ color: 'black' }}>Search</div>
         </div>
-      </Button>
+      </Button> */}
       <div className={styles.sciFi}>
         <div className={styles.tileComponent}>
           <img className={styles.imageIcon} alt="" src="/image55@2x.png" />
